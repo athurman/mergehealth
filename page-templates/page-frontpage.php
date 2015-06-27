@@ -26,6 +26,7 @@ Template Name: Front Page
         <p class="text-center">Discover how food and lifestyle choices affect every aspect of your life, including energy and stress.</p>
       </div>
       <div class="m-all t-1of3 d-1of3 icon-main">
+        <img src="<?php echo get_template_directory_uri(); ?>/library/images/mergehealth-icon-fitness.png" alt="Fitness Icon Yoga Pose">
         <h2 class="text-center upcase">3</h2>
         <h4 class="text-center upcase">Fitness</h4>
         <p class="text-center">Receive at home personal training with a customized workout plan to achieve your personal goals.</p>
