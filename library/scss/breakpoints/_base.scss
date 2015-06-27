@@ -24,6 +24,29 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.textured {
+  background: url(../images/ricepaper_v3.png);
+}
+.clear {
+  clear: both;
+}
+.text-center {
+  text-align: center;
+}
+.upcase {
+  text-transform: uppercase;
+}
+.main {
+  color: $white;
+  font-size: 1.5em;
+  margin: 0;
+}
+.subheader {
+  color: $white;
+  font-size: 1em;
+  margin: 12px 0 0;
+  font-weight: 300;
+}
 
 /********************
 WORDPRESS BODY CLASSES
@@ -31,7 +54,6 @@ style a page via class
 ********************/
 
 .rtl {}                           /* for sites that are read right to left (i.e. hebrew) */
-.home {}                          /* home page */
 .blog {}                          /* blog template page */
 .archive {}                       /* archive page */
 .date {}                          /* date archive page */
@@ -44,10 +66,6 @@ style a page via class
 /*********************
 LAYOUT & GRID STYLES
 *********************/
-.wrap {
-  width: 96%;
-  margin: 0 auto;
-}
 
 /*********************
 LINK STYLES
@@ -163,6 +181,32 @@ and more scalable.
     a {}
   }  /* end current highlighters */
 } /* end .nav */
+
+/*********************
+PAGE TEMPLATES
+*********************/
+.wrap {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.home {
+  #homepage-hero {
+    background: url(../images/hero-bg-frontpage.jpg) no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+  }
+  #what-we-offer {
+    padding: 30px 0;
+  }
+  .icon-main {
+    h2, h4 {
+      font-weight: bold;
+      margin: 0;
+    }
+  }
+}
 
 /*********************
 POSTS & CONTENT STYLES

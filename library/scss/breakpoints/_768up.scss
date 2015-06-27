@@ -18,14 +18,33 @@ GENERAL STYLES
 *********************/
 
 body {}
+.main {
+  font-size: 3.25em;
+}
+.subheader {
+  font-size: 1.75em;
+  margin: 0;
+}
+
+
+/*********************
+PAGE TEMPLATES
+*********************/
+.home {
+  #homepage-hero {
+    padding: 150px 0;
+  }
+  .icon-main {
+    h4 {
+      font-size: 2em;
+    }
+  }
+}
 
 /*********************
 LAYOUT & GRID STYLES
 *********************/
 
-.wrap {
-	width: 760px;
-}
 
 /*********************
 HEADER STYLES
