@@ -208,9 +208,16 @@ PAGE TEMPLATES
     img {
       display: block;
       width: 100%;
-      margin: 0 auto 8px;
+      margin: 0 auto 20px;
       max-width: 150px;
     }
+  }
+  .number {
+    background-color: $white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    padding: 2px 13px 3px;
   }
 }
 
