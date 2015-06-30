@@ -16,18 +16,20 @@ Template Name: Front Page
   <div id="what-we-offer" class="textured">
     <div class="wrap">
       <div class="m-all t-1of3 d-1of3 icon-main">
-        <h2 class="text-center upcase">1</h2>
+        <img src="<?php echo get_template_directory_uri(); ?>/library/images/mergehealth-icon-health.png" alt="Health Icon Holding Plant">
+        <h2 class="text-center upcase"><span class="number">1</span></h2>
         <h4 class="text-center upcase">Health</h4>
         <p class="text-center">Gain a deeper self understanding and uncover ways to move forward in positive, healthy ways.</p>
       </div>
       <div class="m-all t-1of3 d-1of3 icon-main">
-        <h2 class="text-center upcase">2</h2>
+        <img src="<?php echo get_template_directory_uri(); ?>/library/images/mergehealth-icon-nutrition.png" alt="Nutrition Icon Grains">
+        <h2 class="text-center upcase"><span class="number">2</span></h2>
         <h4 class="text-center upcase">Nutrition</h4>
         <p class="text-center">Discover how food and lifestyle choices affect every aspect of your life, including energy and stress.</p>
       </div>
       <div class="m-all t-1of3 d-1of3 icon-main">
         <img src="<?php echo get_template_directory_uri(); ?>/library/images/mergehealth-icon-fitness.png" alt="Fitness Icon Yoga Pose">
-        <h2 class="text-center upcase">3</h2>
+        <h2 class="text-center upcase"><span class="number">3</span></h2>
         <h4 class="text-center upcase">Fitness</h4>
         <p class="text-center">Receive at home personal training with a customized workout plan to achieve your personal goals.</p>
       </div>
