@@ -9,6 +9,13 @@ be seen on the Desktop.
 
 ******************************************************************/
 
-.wrap {
-  width: 1040px;
+/*********************
+PAGE TEMPLATES
+*********************/
+.home {
+  #testimonials-container {
+    background: url(../images/testimonial-bg.png) no-repeat;
+    background-color: #f3f3f3;
+    background-size: 100%;
+  }
 }

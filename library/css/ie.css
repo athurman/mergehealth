@@ -289,6 +289,22 @@ PAGE TEMPLATES
 .home .icon-main h4 {
   font-size: 2em;
 }
+/* line 42, ../scss/breakpoints/_768up.scss */
+.home #testimonials-container {
+  background-color: #f3f3f3;
+}
+/* line 44, ../scss/breakpoints/_768up.scss */
+.home #testimonials-container .wrap {
+  max-width: 550px;
+}
+/* line 46, ../scss/breakpoints/_768up.scss */
+.home #testimonials-container .wrap h4, .home #testimonials-container .wrap h6 {
+  margin: 0;
+}
+/* line 52, ../scss/breakpoints/_768up.scss */
+.home #mission-statement .wrap {
+  max-width: 400px;
+}
 
 /*********************
 LAYOUT & GRID STYLES
@@ -299,19 +315,19 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 61, ../scss/breakpoints/_768up.scss */
+/* line 75, ../scss/breakpoints/_768up.scss */
 .nav {
   border: 0;
   /* end .menu ul li */
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 63, ../scss/breakpoints/_768up.scss */
+/* line 77, ../scss/breakpoints/_768up.scss */
 .nav ul {
   background: #323944;
   margin-top: 0;
 }
-/* line 67, ../scss/breakpoints/_768up.scss */
+/* line 81, ../scss/breakpoints/_768up.scss */
 .nav li {
   float: left;
   position: relative;
@@ -320,7 +336,7 @@ NAVIGATION STYLES
   */
   /* showing sub-menus */
 }
-/* line 71, ../scss/breakpoints/_768up.scss */
+/* line 85, ../scss/breakpoints/_768up.scss */
 .nav li a {
   border-bottom: 0;
   /*
@@ -328,12 +344,12 @@ NAVIGATION STYLES
   has the possibility of being a mobile device.
   */
 }
-/* line 78, ../scss/breakpoints/_768up.scss */
+/* line 92, ../scss/breakpoints/_768up.scss */
 .nav li a:hover, .nav li a:focus {
   color: #fff;
   text-decoration: underline;
 }
-/* line 90, ../scss/breakpoints/_768up.scss */
+/* line 104, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu,
 .nav li ul.children {
   margin-top: 0;
@@ -344,7 +360,7 @@ NAVIGATION STYLES
   z-index: 8999;
   /* highlight sub-menu current page */
 }
-/* line 99, ../scss/breakpoints/_768up.scss */
+/* line 113, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li,
 .nav li ul.children li {
   /*
@@ -353,7 +369,7 @@ NAVIGATION STYLES
   for usability. k, bai.
   */
 }
-/* line 101, ../scss/breakpoints/_768up.scss */
+/* line 115, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 10px;
@@ -362,18 +378,18 @@ NAVIGATION STYLES
   width: 180px;
   border-bottom: 1px solid #ccc;
 }
-/* line 118, ../scss/breakpoints/_768up.scss */
+/* line 132, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li:last-child a,
 .nav li ul.children li:last-child a {
   border-bottom: 0;
 }
-/* line 128, ../scss/breakpoints/_768up.scss */
+/* line 142, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li ul,
 .nav li ul.children li ul {
   top: 0;
   left: 100%;
 }
-/* line 143, ../scss/breakpoints/_768up.scss */
+/* line 157, ../scss/breakpoints/_768up.scss */
 .nav li:hover > ul {
   top: auto;
   visibility: visible;
@@ -383,28 +399,28 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 163, ../scss/breakpoints/_768up.scss */
+/* line 177, ../scss/breakpoints/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 167, ../scss/breakpoints/_768up.scss */
+/* line 181, ../scss/breakpoints/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 172, ../scss/breakpoints/_768up.scss */
+/* line 186, ../scss/breakpoints/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 177, ../scss/breakpoints/_768up.scss */
+/* line 191, ../scss/breakpoints/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 185, ../scss/breakpoints/_768up.scss */
+/* line 199, ../scss/breakpoints/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -429,7 +445,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 293, ../scss/breakpoints/_768up.scss */
+/* line 307, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
@@ -449,9 +465,14 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop.
 
 ******************************************************************/
-/* line 12, ../scss/breakpoints/_1030up.scss */
-.wrap {
-  width: 1040px;
+/*********************
+PAGE TEMPLATES
+*********************/
+/* line 16, ../scss/breakpoints/_1030up.scss */
+.home #testimonials-container {
+  background: url(../images/testimonial-bg.png) no-repeat;
+  background-color: #f3f3f3;
+  background-size: 100%;
 }
 
 /*
