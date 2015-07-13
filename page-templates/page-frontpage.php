@@ -58,15 +58,23 @@ $testimonial_query = new WP_Query( $args );
           $customer_location = get_field('customer_city_state');
           if($i === 1) {
             echo '<div class="testimonial quote-'.$i.'">';
-              echo '<h3 class="text-center">'.$new_content.'</h3>';
-              echo '<h4 class="text-center">'.$customer_name.'</h4>';
-              echo '<h6 class="text-center">'.$customer_location.'</h6>';
+              echo '<i class="fa fa-angle-left"></i>';
+              echo '<div class="testimonial-content">';
+                echo '<h3 class="text-center">'.$new_content.'</h3>';
+                echo '<h4 class="text-center">'.$customer_name.'</h4>';
+                echo '<h6 class="text-center">'.$customer_location.'</h6>';
+              echo '</div>';
+              echo '<i class="fa fa-angle-right"></i>';
             echo '</div>';
           } else {
             echo '<div class="testimonial quote-'.$i.' hidden">';
-              echo '<h3 class="text-center">'.$new_content.'</h3>';
-              echo '<h4 class="text-center">'.$customer_name.'</h4>';
-              echo '<h6 class="text-center">'.$customer_location.'</h6>';
+              echo '<i class="fa fa-angle-left"></i>';
+              echo '<div class="testimonial-content">';
+                echo '<h3 class="text-center">'.$new_content.'</h3>';
+                echo '<h4 class="text-center">'.$customer_name.'</h4>';
+                echo '<h6 class="text-center">'.$customer_location.'</h6>';
+              echo '</div>';
+              echo '<i class="fa fa-angle-right"></i>';
             echo '</div>';
           }
           $i++;
