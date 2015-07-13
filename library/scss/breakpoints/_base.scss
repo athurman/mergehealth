@@ -36,6 +36,9 @@ body {
 .upcase {
   text-transform: uppercase;
 }
+.hidden {
+  display: none;
+}
 .main {
   color: $white;
   font-size: 1.5em;
@@ -240,6 +243,11 @@ PAGE TEMPLATES
   }
   #mission-statement {
     padding: 30px 0;
+  }
+}
+.testimonial {
+  .testimonial-content {
+    padding: 0 30px;
   }
 }
 
