@@ -42,7 +42,7 @@ PAGE TEMPLATES
   #testimonials-container {
     background-color: #f3f3f3;
     .wrap {
-      max-width: 550px;
+      max-width: 700px;
       h4, h6 {
         margin: 0;
       }
@@ -55,7 +55,7 @@ PAGE TEMPLATES
   }
 }
 .testimonial {
-  min-height: 315px;
+  min-height: 380px;
   position: relative;
   .fa-angle-left {
     left: 0;
@@ -63,6 +63,9 @@ PAGE TEMPLATES
     top: 30%;
     font-size: 50px;
     cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    -transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     &:hover {
       color: $bright-blue;
     }
@@ -74,12 +77,16 @@ PAGE TEMPLATES
     right: 0;
     font-size: 50px;
     cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    -transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     &:hover {
       color: $bright-blue;
     }
   }
   .testimonial-content {
-    padding: 0 45px;
+    height: 100%;
+    padding: 8% 45px;
   }
 }
 
