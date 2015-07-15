@@ -116,5 +116,43 @@ jQuery(document).ready(function($) {
   */
   loadGravatars();
 
-
+  initialize($);
 }); /* end of as page load scripts */
+
+function initialize($) {
+  initTestimonialScroll($);
+  $('.testimonial .fa').click(clickShowTestimonial);
+};
+
+function initTestimonialScroll($) {
+  if($('.page-template-page-frontpage').length > 0) {
+    var testimonials = $('.testimonial').hide();
+    var i = 0;
+    (function testimonial_loop() {
+      if(!$('#testimonials-container').hasClass('no-loop')) {
+        testimonials.removeClass('active')
+                         .eq(i)
+                         .addClass('active')
+                         .fadeIn(500)
+                         .delay(6000)
+                         .fadeOut(500, testimonial_loop);
+        i = ++i % testimonials.length;
+      }
+    })();
+  }
+}
+
+function clickShowTestimonial() {
+  jQuery('#testimonials-container').addClass('no-loop');
+  var currentTestimonialClass = jQuery(this).parent().attr('class').split(' ')[1];
+  var currentTestimonial = currentTestimonialClass.split('-')[1];
+  var totalTestimonials = jQuery('.testimonial').length;
+  var next = (currentTestimonial < totalTestimonials) ? parseInt(currentTestimonial) + 1 : 1;
+  var previous = (currentTestimonial == 1) ? parseInt(totalTestimonials) : parseInt(currentTestimonial) - 1;
+  jQuery('.testimonial').removeClass('active').fadeOut(500);
+  if(jQuery(this).hasClass('fa-angle-right')) {
+    jQuery('.quote-' + next).addClass('active').fadeIn(500);
+  } else if(jQuery(this).hasClass('fa-angle-left')) {
+    jQuery('.quote-' + previous).addClass('active').fadeIn(500);
+  }
+}
