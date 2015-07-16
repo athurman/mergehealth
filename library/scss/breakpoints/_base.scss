@@ -27,6 +27,9 @@ body {
 .textured {
   background: url(../images/ricepaper_v3.png);
 }
+.section {
+  background-color: $white;
+}
 .clear {
   clear: both;
 }
@@ -192,7 +195,7 @@ and more scalable.
       -transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
       &:hover, &:focus {}
-		}
+    }
     &:first-child {}
     &:last-child {}
     ul.sub-menu,
@@ -296,6 +299,52 @@ PAGE TEMPLATES
 }
 .testimonial.active {
   display: block !important;
+}
+// About Us Page
+.page-template-page-aboutpage {
+  .subheader {
+    color: $text-color;
+    font-size: 1.2em;
+  }
+  #aboutpage-hero {
+    background: url(../images/about-us-bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+  }
+  #more-about-us,
+  #meet-the-team {
+    padding: 30px 0;
+  }
+  #meet-the-team {
+    .team-member {
+      margin: 20px 0;
+      h3.name {
+        margin: 0;
+        font-weight: 600;
+        font-size: 1.3em;
+      }
+      p.job-title {
+        margin-top: 0;
+        font-size: 1.1em;
+        color: lighten($text-color, 15%);
+      }
+      p.credentials {
+        font-style: italic;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        padding: 15px;
+      }
+    }
+  }
+  #contact-cta {
+    padding: 30px 0;
+    h4.subheader {
+      font-size: 1.4em;
+      margin-bottom: 30px;
+    }
+  }
 }
 
 /*********************
