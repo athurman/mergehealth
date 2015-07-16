@@ -28,7 +28,20 @@ body {
   background: url(../images/ricepaper_v3.png);
 }
 .section {
+  padding: 30px 0;
   background-color: $white;
+}
+.green {
+  background-color: #C7E2B2;
+}
+.light-blue {
+  background-color: #C9E0E0;
+}
+.gray {
+  background-color: $gray;
+}
+.biege {
+  background-color: #EDE5D1;
 }
 .clear {
   clear: both;
@@ -346,7 +359,20 @@ PAGE TEMPLATES
     }
   }
 }
-
+#servicespage-hero {
+  background: url(../images/what-we-offer-banner.jpg) no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+.page-template-page-whatweofferpage {
+  .services.wrap {
+    padding: 0;
+  }
+  .service {
+    width: 100%;
+    padding: 20px;
+  }
+}
 /*********************
 POSTS & CONTENT STYLES
 *********************/

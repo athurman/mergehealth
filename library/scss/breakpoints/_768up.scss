@@ -96,6 +96,23 @@ PAGE TEMPLATES
     }
   }
 }
+.page-template-page-whatweofferpage {
+  .services.wrap {
+    padding: 0 15px;
+  }
+  .service {
+    width: 50%;
+    float: left;
+    padding: 20px 20px 40px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    h1 {
+      font-size: 1.75em;
+      margin-top: 0;
+    }
+  }
+}
 
 /*********************
 LAYOUT & GRID STYLES
