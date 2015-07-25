@@ -67,20 +67,21 @@ body {
   font-weight: 300;
 }
 // Buttons
-.blue-btn {
+.blue-btn,
+a.blue-btn {
   display: block;
   max-width: 275px;
   padding: 10px 30px;
   margin: 15px auto;
   text-align: center;
   font-size: 24px;
-  color: $white;
+  color: $white !important;
   background-color: $bright-blue;
   -webkit-transition: all 0.2s ease-in-out;
   -transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   &:hover {
-    background-color: darken($bright-blue, 2%);
+    background-color: darken($bright-blue, 7%);
   }
 }
 
@@ -369,6 +370,18 @@ PAGE TEMPLATES
     padding: 0;
   }
   .service {
+    img {
+      display: block;
+      margin: 5px auto;
+      height: auto;
+      max-width: 35px;
+    }
+    h1 {
+      margin-bottom: 0;
+    }
+    p:first-of-type {
+      margin-top: 0;
+    }
     width: 100%;
     padding: 20px;
   }
