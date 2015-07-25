@@ -7,7 +7,9 @@ $main_header = get_field('main_about_header');
 
 $args = array(
   'post_type'      => 'team_member',
-  'posts_per_page' => -1
+  'posts_per_page' => -1,
+  'orderby'        => 'menu_order',
+  'order'          => 'ASC'
 );
 $team_member_query = new WP_Query( $args );
 ?>
