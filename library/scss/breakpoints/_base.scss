@@ -91,7 +91,42 @@ style a page via class
 ********************/
 
 .rtl {}                           /* for sites that are read right to left (i.e. hebrew) */
-.blog {}                          /* blog template page */
+.blog {
+  background: url(../images/ricepaper_v3.png);
+  #main {
+    background-color: $white;
+    border: 1px solid $gray;
+    padding: 15px;
+    margin-bottom: 35px;
+  }
+  article {
+    img {
+      display: block;
+      margin: 0 auto 12px;
+      max-width: 100%;
+      height: auto;
+    }
+    h1 {
+      font-size: 1.3em;
+    }
+  }
+  .hentry {
+    background-color: none;
+    border-radius: 0;
+    border: none;
+    header {
+      border-bottom: none;
+      padding-bottom: 0.2em;
+    }
+    footer {
+      padding: 0 1.5em;
+      border-top: none;
+      .footer-category {
+        font-size: 12px;
+      }
+    }
+  }
+}
 .archive {}                       /* archive page */
 .date {}                          /* date archive page */
 .search {}                        /* search page */
