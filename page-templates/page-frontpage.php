@@ -74,7 +74,7 @@ $testimonial_query = new WP_Query( $args );
   <div id="mission-statement" class="textured">
     <div class="wrap">
       <h2 class="text-center">Learn how to integrate health, fitness and nutrition for optimal balance and health in your life.</h2>
-      <a href="#" class="blue-btn">What We Offer</a>
+      <a href="<?php echo home_url(); ?>/what-we-offer" class="blue-btn">What We Offer</a>
     </div>
   </div>
 </div>
