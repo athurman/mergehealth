@@ -24,11 +24,16 @@ PAGE TEMPLATES
     width: 33.3333%;
     float: left;
     padding: 20px 20px 40px;
+    max-width: 333px;
+    max-height: 357px;
     h1 {
       font-size: 1.65em;
     }
     p {
       font-size: 0.9em;
+    }
+    .gray-btn {
+      display: none;
     }
   }
 }
