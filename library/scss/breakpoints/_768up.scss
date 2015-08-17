@@ -113,7 +113,7 @@ PAGE TEMPLATES
   .service {
     width: 50%;
     float: left;
-    padding: 20px 20px 40px;
+    padding: 20px 20px 30px;
     -webkit-transition: all 0.2s ease-in-out;
     -transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -121,6 +121,13 @@ PAGE TEMPLATES
       font-size: 1.75em;
       margin-top: 0;
     }
+  }
+}
+
+// Fitness Services Page
+.page-template-page-fitness {
+  .subheader {
+    font-size: 1.75em;
   }
 }
 

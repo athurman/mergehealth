@@ -426,6 +426,9 @@ PAGE TEMPLATES
     padding: 0;
   }
   .service {
+    font-size: 1em;
+    width: 100%;
+    padding: 20px;
     img {
       display: block;
       margin: 5px auto;
@@ -438,8 +441,28 @@ PAGE TEMPLATES
     p:first-of-type {
       margin-top: 0;
     }
-    width: 100%;
-    padding: 20px;
+    a.gray-btn {
+      margin-bottom: 0;
+    }
+    .service-link {
+      display: none;
+    }
+  }
+}
+
+// Fitness Services Page
+.page-template-page-fitness {
+  #fitnesspage-hero {
+    background: url(../images/about-us-bg.jpg) no-repeat;
+    background-size: 100%;
+    padding: 100px 0;
+  }
+  .subheader {
+    color: $text-color;
+    font-size: 1.2em;
+  }
+  #boot-camp {
+    padding: 30px 0;
   }
 }
 /*********************
