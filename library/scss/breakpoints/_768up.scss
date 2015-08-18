@@ -162,7 +162,37 @@ nav {
 /*********************
 NAVIGATION STYLES
 *********************/
-
+footer.footer {
+  nav {
+    width: 55%;
+    float: left;
+    ul.footer-links {
+      float: left;
+      width: 33.33%;
+      padding-right: 20px;
+      li {
+        padding: 3px 0;
+        font-size: 0.8em;
+        a {
+          color: $light-gray;
+          text-decoration: none;
+          transition: all 0.2s ease-in-out;
+          &:hover {
+            color: darken($light-gray, 15%);
+          }
+        }
+      }
+      li.link-top {
+        border-bottom: 1px solid $blue;
+        display: inline-block;
+        font-size: 1.2em;
+        padding-bottom: 6px;
+        margin-bottom: 6px;
+        width: 83px;
+      }
+    }
+  }
+}
 .nav {
   display: block;
 	border: 0;

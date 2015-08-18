@@ -78,3 +78,25 @@ PAGE TEMPLATES
     }
   }
 }
+/*********************
+NAVIGATION STYLES
+*********************/
+footer.footer {
+  nav {
+    width: 55%;
+    ul.footer-links {
+      float: left;
+      li {
+        font-size: 1em;
+      }
+      li.link-top {
+        border-bottom: 1px solid $blue;
+        display: inline-block;
+        font-size: 1.2em;
+        padding-bottom: 6px;
+        margin-bottom: 6px;
+        width: 83px;
+      }
+    }
+  }
+}
