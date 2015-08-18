@@ -3,9 +3,9 @@
           <nav role="navigation">
             <ul class='site-nav footer-links'>
               <li class='link-top'>Company</li>
-              <li><a href="<?php echo home_url(); ?>">Home</a></li>
               <li><a href="<?php echo home_url(); ?>/blog">Blog</a></li>
               <li><a href="<?php echo home_url(); ?>/about">About</a></li>
+              <li><a href="<?php echo home_url(); ?>/contact">Contact</a></li>
               <li><a href="<?php echo home_url(); ?>/what-we-offer">What We Offer</a></li>
             </ul>
             <ul class='site-nav footer-links'>
@@ -23,7 +23,17 @@
             </ul>
             <div class="clear"></div>
           </nav>
-          <p class="copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
+          <div class="footer-right">
+            <ul class="footer-social-links">
+              <li><a href="https://twitter.com/MergeIntoHealth" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://instagram.com/mergeintohealth/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://www.facebook.com/MergeHFN" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.youtube.com/channel/UCuqQnlPp3xuzDHaeB6lAMSQ" target="_blank"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+            <p class="copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
+            <div class="clear"></div>
+          </div>
+          <div class="clear"></div>
         </div>
       </footer>
     </div>
