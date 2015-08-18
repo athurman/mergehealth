@@ -1,34 +1,33 @@
-			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
-
-				<div id="inner-footer" class="wrap cf">
-
-					<nav role="navigation">
-						<?php wp_nav_menu(array(
-    					'container' => 'div',                           // enter '' to remove nav container (just make sure .footer-links in _base.scss isn't wrapping)
-    					'container_class' => 'footer-links cf',         // class of container (should you choose to use it)
-    					'menu' => __( 'Footer Links', 'mergehealth' ),   // nav name
-    					'menu_class' => 'nav footer-nav cf',            // adding custom nav class
-    					'theme_location' => 'footer-links',             // where it's located in the theme
-    					'before' => '',                                 // before the menu
-    					'after' => '',                                  // after the menu
-    					'link_before' => '',                            // before each link
-    					'link_after' => '',                             // after each link
-    					'depth' => 0,                                   // limit the depth of the nav
-    					'fallback_cb' => 'mergehealth_footer_links_fallback'  // fallback function
-						)); ?>
-					</nav>
-
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
-
-				</div>
-
-			</footer>
-
-		</div>
-
-		<?php // all js scripts are loaded in library/mergehealth.php ?>
-		<?php wp_footer(); ?>
-
-	</body>
-
-</html> <!-- end of site. what a ride! -->
+      <footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+        <div id="inner-footer" class="wrap cf">
+          <nav role="navigation">
+            <ul class='site-nav footer-links'>
+              <li class='link-top'>Company</li>
+              <li><a href="<?php echo home_url(); ?>">Home</a></li>
+              <li><a href="<?php echo home_url(); ?>/blog">Blog</a></li>
+              <li><a href="<?php echo home_url(); ?>/about">About</a></li>
+              <li><a href="<?php echo home_url(); ?>/what-we-offer">What We Offer</a></li>
+            </ul>
+            <ul class='site-nav footer-links'>
+              <li class='link-top'>Services</li>
+              <li><a href="#">Fitness</a></li>
+              <li><a href="#">Counseling</a></li>
+              <li><a href="#">Health & Nutrition</a></li>
+              <li><a href="#">Corporate Wellness</a></li>
+            </ul>
+            <ul class='site-nav footer-links'>
+              <li class='link-top'>Events</li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Wellness Retreats</a></li>
+              <li><a href="#">Workshops & Talks</a></li>
+            </ul>
+            <div class="clear"></div>
+          </nav>
+          <p class="copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
+        </div>
+      </footer>
+    </div>
+    <?php // all js scripts are loaded in library/mergehealth.php ?>
+    <?php wp_footer(); ?>
+  </body>
+</html>
