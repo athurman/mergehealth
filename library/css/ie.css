@@ -421,33 +421,41 @@ nav ul.nav li a:hover {
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 166, ../scss/breakpoints/_768up.scss */
+/* line 165, ../scss/breakpoints/_768up.scss */
+footer.footer {
+  padding: 20px 0;
+}
+/* line 167, ../scss/breakpoints/_768up.scss */
+footer.footer #inner-footer {
+  position: relative;
+}
+/* line 170, ../scss/breakpoints/_768up.scss */
 footer.footer nav {
   width: 55%;
   float: left;
 }
-/* line 169, ../scss/breakpoints/_768up.scss */
+/* line 173, ../scss/breakpoints/_768up.scss */
 footer.footer nav ul.footer-links {
   float: left;
   width: 33.33%;
   padding-right: 20px;
 }
-/* line 173, ../scss/breakpoints/_768up.scss */
+/* line 177, ../scss/breakpoints/_768up.scss */
 footer.footer nav ul.footer-links li {
   padding: 3px 0;
   font-size: 0.8em;
 }
-/* line 176, ../scss/breakpoints/_768up.scss */
+/* line 180, ../scss/breakpoints/_768up.scss */
 footer.footer nav ul.footer-links li a {
   color: #f8f9fa;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
-/* line 180, ../scss/breakpoints/_768up.scss */
+/* line 184, ../scss/breakpoints/_768up.scss */
 footer.footer nav ul.footer-links li a:hover {
   color: #cbd3da;
 }
-/* line 185, ../scss/breakpoints/_768up.scss */
+/* line 189, ../scss/breakpoints/_768up.scss */
 footer.footer nav ul.footer-links li.link-top {
   border-bottom: 1px solid #2f90cc;
   display: inline-block;
@@ -456,8 +464,56 @@ footer.footer nav ul.footer-links li.link-top {
   margin-bottom: 6px;
   width: 83px;
 }
+/* line 199, ../scss/breakpoints/_768up.scss */
+footer.footer .footer-right {
+  float: right;
+  width: 40%;
+  text-align: right;
+}
+/* line 203, ../scss/breakpoints/_768up.scss */
+footer.footer .footer-right .footer-social-links {
+  display: inline-block;
+  margin-top: 25px;
+}
+/* line 206, ../scss/breakpoints/_768up.scss */
+footer.footer .footer-right .footer-social-links li {
+  padding: 0 3px;
+  display: inline-block;
+}
+/* line 209, ../scss/breakpoints/_768up.scss */
+footer.footer .footer-right .footer-social-links li a {
+  color: #fff;
+  background-color: #2f90cc;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  padding: 4px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-transition: all 0.2s ease-in-out;
+  -transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 224, ../scss/breakpoints/_768up.scss */
+footer.footer .footer-right .footer-social-links li a:hover {
+  background-color: #21648e;
+  -webkit-transition: all 0.2s ease-in-out;
+  -transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 233, ../scss/breakpoints/_768up.scss */
+footer.footer .footer-right .copyright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 0.8em;
+  color: #5A79A9;
+}
 
-/* line 196, ../scss/breakpoints/_768up.scss */
+/* line 242, ../scss/breakpoints/_768up.scss */
 .nav {
   display: block;
   border: 0;
@@ -465,18 +521,18 @@ footer.footer nav ul.footer-links li.link-top {
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 199, ../scss/breakpoints/_768up.scss */
+/* line 245, ../scss/breakpoints/_768up.scss */
 .nav ul {
   background: #323944;
   margin-top: 0;
 }
-/* line 203, ../scss/breakpoints/_768up.scss */
+/* line 249, ../scss/breakpoints/_768up.scss */
 .nav li {
   float: right;
   position: relative;
   /* showing sub-menus */
 }
-/* line 208, ../scss/breakpoints/_768up.scss */
+/* line 254, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu,
 .nav li ul.children {
   margin-top: 0;
@@ -487,16 +543,7 @@ footer.footer nav ul.footer-links li.link-top {
   z-index: 8999;
   /* highlight sub-menu current page */
 }
-/* line 217, ../scss/breakpoints/_768up.scss */
-.nav li ul.sub-menu li,
-.nav li ul.children li {
-  /*
-  if you need to go deeper, go nuts
-  just remember deeper menus suck
-  for usability. k, bai.
-  */
-}
-/* line 219, ../scss/breakpoints/_768up.scss */
+/* line 263, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 10px;
@@ -505,18 +552,18 @@ footer.footer nav ul.footer-links li.link-top {
   width: 180px;
   border-bottom: 1px solid #ccc;
 }
-/* line 236, ../scss/breakpoints/_768up.scss */
+/* line 275, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li:last-child a,
 .nav li ul.children li:last-child a {
   border-bottom: 0;
 }
-/* line 246, ../scss/breakpoints/_768up.scss */
+/* line 279, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li ul,
 .nav li ul.children li ul {
   top: 0;
   left: 100%;
 }
-/* line 261, ../scss/breakpoints/_768up.scss */
+/* line 292, ../scss/breakpoints/_768up.scss */
 .nav li:hover > ul {
   top: auto;
   visibility: visible;
@@ -526,28 +573,28 @@ footer.footer nav ul.footer-links li.link-top {
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 281, ../scss/breakpoints/_768up.scss */
+/* line 309, ../scss/breakpoints/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 285, ../scss/breakpoints/_768up.scss */
+/* line 313, ../scss/breakpoints/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 290, ../scss/breakpoints/_768up.scss */
+/* line 318, ../scss/breakpoints/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 295, ../scss/breakpoints/_768up.scss */
+/* line 323, ../scss/breakpoints/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 303, ../scss/breakpoints/_768up.scss */
+/* line 331, ../scss/breakpoints/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -572,7 +619,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 411, ../scss/breakpoints/_768up.scss */
+/* line 439, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.

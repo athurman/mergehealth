@@ -242,14 +242,72 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
-
-/*
-all navs have a .nav class applied via
-the wp_menu function; this is so we can
-easily write one group of styles for
-the navs on the site so our css is cleaner
-and more scalable.
-*/
+footer.footer {
+  padding: 20px 0;
+  #inner-footer {
+    position: relative;
+  }
+  nav {
+    ul.footer-links {
+      li {
+        padding: 3px 0;
+        a {
+          display: block;
+          color: $light-gray;
+          text-decoration: none;
+          transition: all 0.2s ease-in-out;
+          &:hover {
+            color: darken($light-gray, 15%);
+          }
+        }
+      }
+      li.link-top {
+        border-bottom: 1px solid $blue;
+        display: inline-block;
+        font-size: 1.2em;
+        padding-bottom: 6px;
+        margin-bottom: 6px;
+        width: 83px;
+      }
+    }
+  }
+  .footer-right {
+    .footer-social-links {
+      display: inline-block;
+      margin-top: 25px;
+      li {
+        padding: 0 3px;
+        display: inline-block;
+        a {
+          color: $white;
+          background-color: $blue;
+          width: 35px;
+          height: 35px;
+          font-size: 20px;
+          text-align: center;
+          display: inline-block;
+          padding: 4px;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -webkit-transition: all 0.2s ease-in-out;
+          -transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+          &:hover {
+            background-color: darken($blue, 15%);
+            -webkit-transition: all 0.2s ease-in-out;
+            -transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+          }
+        }
+      }
+    }
+    .copyright {
+      font-size: 0.8em;
+      color: #5A79A9;
+    }
+  }
+}
 
 .nav {
   display: none;

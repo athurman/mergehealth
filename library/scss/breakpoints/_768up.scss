@@ -163,6 +163,10 @@ nav {
 NAVIGATION STYLES
 *********************/
 footer.footer {
+  padding: 20px 0;
+  #inner-footer {
+    position: relative;
+  }
   nav {
     width: 55%;
     float: left;
@@ -192,86 +196,110 @@ footer.footer {
       }
     }
   }
+  .footer-right {
+    float: right;
+    width: 40%;
+    text-align: right;
+    .footer-social-links {
+      display: inline-block;
+      margin-top: 25px;
+      li {
+        padding: 0 3px;
+        display: inline-block;
+        a {
+          color: $white;
+          background-color: $blue;
+          width: 35px;
+          height: 35px;
+          font-size: 20px;
+          text-align: center;
+          display: inline-block;
+          padding: 4px;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -webkit-transition: all 0.2s ease-in-out;
+          -transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+          &:hover {
+            background-color: darken($blue, 15%);
+            -webkit-transition: all 0.2s ease-in-out;
+            -transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+          }
+        }
+      }
+    }
+    .copyright {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      font-size: 0.8em;
+      color: #5A79A9;
+    }
+  }
 }
 .nav {
   display: block;
-	border: 0;
-	ul {
-		background:$black;
-		margin-top:0;
-	}
+  border: 0;
+  ul {
+    background:$black;
+    margin-top:0;
+  }
 	li {
-		float: right;
-		position: relative;
-		&:first-child {}
-		&:last-child {}
-		ul.sub-menu,
-		ul.children {
-			margin-top: 0;
-			border: 1px solid #ccc;
-			border-top: 0;
-			position: absolute;
-			visibility: hidden;
-			z-index: 8999;
-
-			li {
-
-				a {
-					padding-left: 10px;
-					border-right: 0;
-					display: block;
-					width: 180px;
-					border-bottom: 1px solid #ccc;
-
-					&:hover,
-					&:focus {}
-
-					&:link {}
-				}
-
-				&:first-child {}
-
-				&:last-child {
-
-					a {
-						border-bottom: 0;
-					}
-				}
-
-				/*
-				if you need to go deeper, go nuts
-				just remember deeper menus suck
-				for usability. k, bai.
-				*/
-				ul {
-					top:0;
-					left:100%;
-				}
-			}
-
-			/* highlight sub-menu current page */
-			li.current-menu-item,
-			li.current_page_item,
-			li.current_page_ancestor {
-				a {}
-			}
-		}
-
-		/* showing sub-menus */
-		&:hover > ul {
-			top: auto;
-			visibility:visible;
-		}
-
-	} /* end .menu ul li */
-
-	/* highlight current page */
-	li.current-menu-item,
-	li.current_page_item,
-	li.current_page_ancestor {
-		a {}
-	}  /* end current highlighters */
-
+    float: right;
+    position: relative;
+    &:first-child {}
+    &:last-child {}
+    ul.sub-menu,
+    ul.children {
+      margin-top: 0;
+      border: 1px solid #ccc;
+      border-top: 0;
+      position: absolute;
+      visibility: hidden;
+      z-index: 8999;
+      li {
+        a {
+          padding-left: 10px;
+          border-right: 0;
+          display: block;
+          width: 180px;
+          border-bottom: 1px solid #ccc;
+          &:hover,
+          &:focus {}
+          &:link {}
+        }
+        &:first-child {}
+        &:last-child {
+          a {
+            border-bottom: 0;
+          }
+        }
+        ul {
+          top:0;
+          left:100%;
+        }
+      }
+      /* highlight sub-menu current page */
+      li.current-menu-item,
+      li.current_page_item,
+      li.current_page_ancestor {
+        a {}
+      }
+    }
+    /* showing sub-menus */
+    &:hover > ul {
+      top: auto;
+      visibility:visible;
+    }
+  } /* end .menu ul li */
+  /* highlight current page */
+  li.current-menu-item,
+  li.current_page_item,
+  li.current_page_ancestor {
+    a {}
+  }  /* end current highlighters */
 } /* end .nav */
 
 /*********************
