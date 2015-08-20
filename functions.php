@@ -54,6 +54,7 @@ function send_contact_form() {
   die();
 }
 function init_wp_ajax_send_contact_form() {
+  wp_enqueue_script( 'function', get_template_directory_uri().'/library/js/scripts.js', array( 'jquery' ), '0.1', true);
   wp_localize_script( 'function', 'send_contact_form_ajax', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 }
 add_action('template_redirect', 'init_wp_ajax_send_contact_form');
