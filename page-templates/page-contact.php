@@ -12,6 +12,8 @@ Template Name: Contact Page
   <div id="contact-form" class="textured">
     <div class="wrap">
       <div class="form-container">
+        <h4 class="subheader">Contact Us Today for a FREE Consultation</h4>
+        <span class="form-stuff"></span>
         <form id="contact-us-form" method="post" action="">
           <div class="t-all d-all  m-all">
             <label for="first_name">Name*</label>
