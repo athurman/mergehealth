@@ -74,7 +74,7 @@ $team_member_query = new WP_Query( $args );
   <div id="contact-cta" class="section">
     <div class="wrap">
       <h4 class="subheader text-center">There is a happier, healthier version of you waiting to be uncovered. Contact us today for a FREE health consultation.</h4>
-      <a href="#" class="blue-btn">Get Started</a>
+      <a href="<?php echo home_url(); ?>/contact" class="blue-btn">Get Started</a>
     </div>
   </div>
 </div>
