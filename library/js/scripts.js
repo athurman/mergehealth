@@ -156,3 +156,68 @@ function clickShowTestimonial() {
     jQuery('.quote-' + previous).addClass('active').fadeIn(500);
   }
 }
+
+jQuery(document).ready(function($) {
+  $('#contact-form-submit').on('click', clickSubmitContact);
+
+  // Submission Page Form Functions
+  function clickSubmitContact(e) {
+    e.preventDefault();
+    var $submitButton = $('#contact-form-submit');
+    // Validate last step
+    errors = checkInputs($submitButton);
+    var name = $('#name').val();
+    var email = $('#email').val();
+    var phone = $('#phone').val();
+    if(phone.length == 0)
+      phone = 'N/A';
+    var message = $('#message').val();
+
+    if(errors.length == 0) {
+      $('ul.form-error').remove();
+      $.ajax({
+        dataType: 'json',
+        url: send_contact_form_ajax.ajaxurl,
+        type: 'post',
+        async: false,
+        data: ({action : 'send_contact_form_function', name: name, email: email, phone: phone, message: message}),
+        success: function(response) {
+          if(response == 'success') {
+            $('.form-container').hide();
+            if($('.form-stuff h4.step-name').length == 0)
+              $('.form-stuff').append('<h4 class="step-name">Thank you for contacting us!</h4>');
+          } else {
+            if($('.form-stuff h4.step-name').length == 0)
+              $('.form-stuff').append('<h4 class="step-name">Something appeared to have gone wrong, please try again.</h4>');
+          }
+        }
+      });
+    } else {
+      $('ul.form-error').remove();
+      $('.form-stuff').append('<ul class="form-error"></ul>');
+      for(var i = 0; i < errors.length; i++) {
+        $('ul.form-error').append('<li>' + errors[i] + '</li>');
+      }
+    }
+  }
+
+  // Validation check function:
+  function checkInputs($continueButton) {
+    var errors = [];
+    var inputs = $continueButton.parent().find('input');
+    $(inputs).removeClass('error');
+    // Required Validation
+    $continueButton.parent().find('.required').map(function(){
+      if( $.trim($(this).val()) == "" && $(this).is(":disabled") == false ) {
+        $(this).addClass('error');
+        // Do not check for phone is required label.
+        if($(this).attr('id') != 'phone') {
+          var inputName = $(this).siblings('label').text().split('*')[0];
+          errors.push(inputName + ' is required.');
+        }
+      }
+    });
+
+    return errors;
+  }
+});
