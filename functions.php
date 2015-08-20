@@ -14,6 +14,52 @@ require_once( 'library/mergehealth.php' );
 // CUSTOMIZE THE WORDPRESS ADMIN (off by default)
 // require_once( 'library/admin.php' );
 
+/*---------------------------------
+Contact Us Form Init AJAX
+----------------------------------*/
+function send_contact_form() {
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $phone = $_POST['phone'];
+  $message = $_POST['message'];
+  $headers = 'From: Merge Into Health Website <info@mergeintohealth.com>' . "\r\n";
+  $headers .= 'Content-type: text/html';
+  $emailSent = wp_mail( 'meghan@mergeintohealth.com', 'Merge Into Health Website Contact Submission', '<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+      #outlook a {padding:0;}
+      html{ width:100% !important; height: 100%!important; }
+      body{ width:100% !important; height: 100%!important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;}
+      .ExternalClass {width:100%;}
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+      p {margin: 1em 0; font-family:Arial, sans-serif; color:#636363; line-height:18px;}
+      h1, h2, h3, h4, h5, h6 {color: #636363 !important;}
+      h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: #008aaa !important;}
+      h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active { color: #008aaa !important; }
+      h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited { color: #008aaa !important; }
+      ul li { margin: 5px 0; font-size: 15px; color: #636363; vertical-align: top; line-height: 18px; }
+      a {color: #458bbb!important; font-size:14px; text-decoration: none!important;}
+      @media only screen and (max-device-width: 480px) {
+        /* mobile-specific CSS styles go here */
+        p { font-size: 15px !important; line-height: 15px; }
+        h3 { font-size: 18px !important; }
+        li { font-size: 15px !important; line-height: 18px !important; margin-bottom: 8px; }
+        a { font-size: 15px !important; }
+      }
+    </style><title>Merge Into Health Website Contact Submission</title></head><body><h4>A user has submitted a message to the Merge Into Health Contact Page:</h4><p>First Name: '.$name.'</p><p>Email: '.$email.'</p><p>Phone Number: '.$phone.'</p><p>Message: <br>'.$message.'</p></body><html>', $headers);
+  if($emailSent) {
+    echo json_encode(array('success'));
+  } else {
+    echo json_encode(array('failed'));
+  }
+  die();
+}
+function init_wp_ajax_send_contact_form() {
+  wp_localize_script( 'function', 'send_contact_form_ajax', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
+}
+add_action('template_redirect', 'init_wp_ajax_send_contact_form');
+add_action("wp_ajax_nopriv_send_contact_form_function", "send_contact_form");
+add_action("wp_ajax_send_contact_form_function", "send_contact_form");
+
 /*********************
 LAUNCH mergehealth
 Let's get everything up and running.
