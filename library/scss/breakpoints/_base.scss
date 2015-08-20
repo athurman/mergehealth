@@ -116,7 +116,8 @@ style a page via class
 .search-results,
 .search-no-results,
 .search-paged-1,
-.blog {
+.blog,
+.single {
   background: url(../images/ricepaper_v3.png);
   #main {
     background-color: $white;
