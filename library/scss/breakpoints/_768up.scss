@@ -131,6 +131,16 @@ PAGE TEMPLATES
   }
 }
 
+// Contact Page
+.page-template-page-contact {
+  #contact-form {
+    padding: 40px 0;
+    .wrap {
+      max-width: 750px;
+    }
+  }
+}
+
 /*********************
 LAYOUT & GRID STYLES
 *********************/
