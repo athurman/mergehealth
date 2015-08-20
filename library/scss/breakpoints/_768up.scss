@@ -140,6 +140,9 @@ PAGE TEMPLATES
 
 // Contact Page
 .page-template-page-contact {
+  .subheader {
+    font-size: 1.75em;
+  }
   #contact-form {
     padding: 40px 0;
     .wrap {

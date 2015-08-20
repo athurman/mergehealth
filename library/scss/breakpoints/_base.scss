@@ -528,6 +528,14 @@ PAGE TEMPLATES
 
 // Contact Page
 .page-template-page-contact {
+  .subheader {
+    color: $text-color;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  .form-error {
+    color: red;
+  }
   #contact-form {
     padding: 20px 0;
     input[type="text"],
@@ -551,6 +559,25 @@ PAGE TEMPLATES
       border: 1px solid $gray;
       margin-top: 8px;
       max-width: none;
+    }
+    input[type="text"].error,
+    input[type="password"].error,
+    input[type="datetime"].error,
+    input[type="datetime-local"].error,
+    input[type="date"].error,
+    input[type="month"].error,
+    input[type="time"].error,
+    input[type="week"].error,
+    input[type="number"].error,
+    input[type="email"].error,
+    input[type="url"].error,
+    input[type="search"].error,
+    input[type="tel"].error,
+    input[type="color"].error,
+    select.error,
+    textarea.error,
+    .field.error {
+      border: 1px solid red;
     }
   }
 }
