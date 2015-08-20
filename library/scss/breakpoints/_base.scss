@@ -110,8 +110,12 @@ a.gray-btn {
 WORDPRESS BODY CLASSES
 style a page via class
 ********************/
-
-.rtl {}                           /* for sites that are read right to left (i.e. hebrew) */
+.archive,
+.date,
+.search,
+.search-results,
+.search-no-results,
+.search-paged-1,
 .blog {
   background: url(../images/ricepaper_v3.png);
   #main {
@@ -119,6 +123,9 @@ style a page via class
     border: 1px solid $gray;
     padding: 15px;
     margin-bottom: 35px;
+    & > h1 {
+      margin: 0;
+    }
   }
   article {
     img {
@@ -148,13 +155,7 @@ style a page via class
     }
   }
 }
-.archive {}                       /* archive page */
-.date {}                          /* date archive page */
-.search {}                        /* search page */
-.search-results {}                /* search result page */
-.search-no-results {}             /* no results search page */
-.search-paged-1 {}                /* individual paged search (i.e. body.search-paged-3) */
-.error404 {}                      /* 404 page */
+.error404 {}
 
 /*********************
 LAYOUT & GRID STYLES
