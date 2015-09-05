@@ -43,9 +43,9 @@ $events = get_field('events');
         <h1 class="text-center">Wellness Retreats</h1>
         <img src="<?php echo get_template_directory_uri(); ?>/library/images/health-icon.png" alt="Health Icon Holding Plant">
         <?php echo $wellness_retreats; ?>
-        <a href="#" class="gray-btn">Learn More</a>
+        <a href="http://www.innerjourneyretreats.com/" class="gray-btn">Learn More</a>
         <div class="service-link">
-          <a href="#">Learn More</a>
+          <a href="http://www.innerjourneyretreats.com/">Learn More</a>
         </div>
       </div>
       <div class="service biege">
