@@ -146,11 +146,74 @@ PAGE TEMPLATES
   #personal-training {
     padding: 80px 0;
     border-top: 1px solid $white;
-    border-bottom: 1px solid $white;
     background: url(../images/fitness-bg.jpg) no-repeat;
     background-size: cover;
     background-color: $black;
     color: $white;
+    text-align: center;
+    a {
+      display: inline-block;
+      color: $white;
+      text-decoration: none;
+      padding-bottom: 5px;
+      text-transform: uppercase;
+      border-bottom: 1px solid transparent;
+      -webkit-transition: all 0.2s ease-in-out;
+      moz-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        border-bottom: 1px solid $white;
+      }
+    }
+  }
+  #boot-camp {
+    background: url(../images/bootcamp-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: 45%;
+    padding: 80px 0;
+    border-top: 1px solid $white;
+    text-align: center;
+    .sub-main {
+      color: $white;
+    }
+    a {
+      display: inline-block;
+      color: $white;
+      text-decoration: none;
+      padding-bottom: 5px;
+      text-transform: uppercase;
+      border-bottom: 1px solid transparent;
+      -webkit-transition: all 0.2s ease-in-out;
+      moz-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        border-bottom: 1px solid $text-color;
+      }
+    }
+  }
+  #swim {
+    background: url(../images/swimming-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: 70% 0;
+    padding: 80px 0;
+    border-top: 1px solid $white;
+    border-bottom: 1px solid $white;
+    color: $white;
+    text-align: center;
+    a {
+      display: inline-block;
+      color: $white;
+      text-decoration: none;
+      padding-bottom: 5px;
+      text-transform: uppercase;
+      border-bottom: 1px solid transparent;
+      -webkit-transition: all 0.2s ease-in-out;
+      moz-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        border-bottom: 1px solid $white;
+      }
+    }
   }
 }
 

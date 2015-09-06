@@ -82,7 +82,7 @@ a.blue-btn {
   color: $white !important;
   background-color: $bright-blue;
   -webkit-transition: all 0.2s ease-in-out;
-  -transition: all 0.2s ease-in-out;
+  moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   &:hover {
     background-color: darken($bright-blue, 7%);
@@ -540,6 +540,9 @@ PAGE TEMPLATES
   }
   #personal-training {
     background-color: lighten($black, 10%);
+    a {
+      display: none;
+    }
   }
   .sub-main {
     color: $white;
@@ -557,9 +560,15 @@ PAGE TEMPLATES
     .mobile-container {
       color: $text-color;
     }
+    a {
+      display: none;
+    }
   }
   #swim {
     background-color: lighten($black, 10%);
+    a {
+      display: none;
+    }
   }
 }
 
