@@ -48,27 +48,43 @@ $testimonial_query = new WP_Query( $args );
   </div>
   <div id="testimonials-container">
     <div class="wrap">
-      <?php
-      if ( $testimonial_query->have_posts() ) {
-        $i = 1;
-        while ( $testimonial_query->have_posts() ) {
-          $testimonial_query->the_post();
-          $new_content = strip_tags(get_the_content());
-          $customer_name = get_field('customer_name');
-          $customer_location = get_field('customer_city_state');
-          echo '<div class="testimonial quote-'.$i.'">';
-            echo '<i class="fa fa-angle-left"></i>';
-            echo '<div class="testimonial-content">';
-              echo '<h3 class="text-center">'.$new_content.'</h3>';
-              echo '<h4 class="text-center">'.$customer_name.'</h4>';
-              echo '<h6 class="text-center">'.$customer_location.'</h6>';
-            echo '</div>';
-            echo '<i class="fa fa-angle-right"></i>';
-          echo '</div>';
-          $i++;
-        }
-      }
-      ?>
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <?php
+          if ( $testimonial_query->have_posts() ) {
+            $i = 1;
+            while ( $testimonial_query->have_posts() ) {
+              $testimonial_query->the_post();
+              $new_content = strip_tags(get_the_content());
+              $customer_name = get_field('customer_name');
+              $customer_location = get_field('customer_city_state');
+              if($i === 1) {
+                echo '<div class="item active testimonial quote-'.$i.'">';
+              } else {
+                echo '<div class="item testimonial quote-'.$i.'">';
+              }
+                echo '<div class="testimonial-content">';
+                  echo '<h3 class="text-center">'.$new_content.'</h3>';
+                  echo '<h4 class="text-center">'.$customer_name.'</h4>';
+                  echo '<h6 class="text-center">'.$customer_location.'</h6>';
+                echo '</div>';
+              echo '</div>';
+              $i++;
+            }
+          }
+          ?>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span aria-hidden="true"><i class="fa fa-angle-left"></i></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span aria-hidden="true"><i class="fa fa-angle-right"></i></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </div>
   </div>
   <div id="mission-statement" class="textured">
