@@ -20,6 +20,7 @@ $swim_classes_text = get_field('swim_classes_text');
   <div id="personal-training" class="section">
     <div class="wrap">
       <h1 class="sub-main text-center">Personal Training</h1>
+      <a class="text-center" href="#">Learn More</a>
       <div class="mobile-container">
         <?php
         if(!empty($personal_training_text)) {
@@ -32,6 +33,7 @@ $swim_classes_text = get_field('swim_classes_text');
   <div id="boot-camp" class="section">
     <div class="wrap">
       <h1 class="sub-main text-center">Boot Camp</h1>
+      <a class="text-center" href="#">Learn More</a>
       <div class="mobile-container">
         <?php
         if(!empty($boot_camp_text)) {
@@ -44,6 +46,7 @@ $swim_classes_text = get_field('swim_classes_text');
   <div id="swim" class="section">
     <div class="wrap">
       <h1 class="sub-main text-center">Swim Classes</h1>
+      <a class="text-center" href="#">Learn More</a>
       <div class="mobile-container">
         <?php
         if(!empty($swim_classes_text)) {
