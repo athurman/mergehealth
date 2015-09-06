@@ -19,32 +19,38 @@ $swim_classes_text = get_field('swim_classes_text');
   </div>
   <div id="personal-training" class="section">
     <div class="wrap">
-      <h4 class="subheader">Personal Training</h4>
-      <?php
-      if(!empty($personal_training_text)) {
-        echo $personal_training_text;
-      }
-      ?>
+      <h1 class="sub-main text-center">Personal Training</h1>
+      <div class="mobile-container">
+        <?php
+        if(!empty($personal_training_text)) {
+          echo $personal_training_text;
+        }
+        ?>
+      </div>
     </div>
   </div>
-  <div id="boot-camp" class="textured">
+  <div id="boot-camp" class="section">
     <div class="wrap">
-      <h4 class="subheader">Boot Camp</h4>
-      <?php
-      if(!empty($boot_camp_text)) {
-        echo $boot_camp_text;
-      }
-      ?>
+      <h1 class="sub-main text-center">Boot Camp</h1>
+      <div class="mobile-container">
+        <?php
+        if(!empty($boot_camp_text)) {
+          echo $boot_camp_text;
+        }
+        ?>
+    </div>
     </div>
   </div>
   <div id="swim" class="section">
     <div class="wrap">
-      <h4 class="subheader">Swim Classes</h4>
-      <?php
-      if(!empty($swim_classes_text)) {
-        echo $swim_classes_text;
-      }
-      ?>
+      <h1 class="sub-main text-center">Swim Classes</h1>
+      <div class="mobile-container">
+        <?php
+        if(!empty($swim_classes_text)) {
+          echo $swim_classes_text;
+        }
+        ?>
+    </div>
     </div>
   </div>
 </div>
