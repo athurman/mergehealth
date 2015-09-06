@@ -20,7 +20,7 @@ $testimonial_query = new WP_Query( $args );
     <div class="wrap">
       <h1 class="text-center main"><?php echo $main_header; ?></h1>
       <h4 class="text-center subheader"><?php echo $sub_header; ?></h4>
-      <a href="#" class="blue-btn">Get Started Today</a>
+      <a href="<?php echo home_url(); ?>/what-we-offer" class="blue-btn">Get Started Today</a>
     </div>
   </div>
   <div id="what-we-offer" class="textured">
@@ -40,7 +40,7 @@ $testimonial_query = new WP_Query( $args );
       <div class="m-all t-1of3 d-1of3 icon-main">
         <img src="<?php echo get_template_directory_uri(); ?>/library/images/mergehealth-icon-fitness.png" alt="Fitness Icon Yoga Pose">
         <h2 class="text-center upcase"><span class="number">3</span></h2>
-        <h4 class="text-center upcase"><a href="#">Fitness</a></h4>
+        <h4 class="text-center upcase"><a href="<?php echo home_url(); ?>/fitness">Fitness</a></h4>
         <p class="text-center">Receive at home personal training with a customized workout plan to achieve your personal goals.</p>
       </div>
       <div class="clear"></div>
