@@ -1875,13 +1875,34 @@ footer.footer .footer-right .footer-social-links li a:hover {
   -transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 307, ../scss/breakpoints/_base.scss */
+/* line 304, ../scss/breakpoints/_base.scss */
+footer.footer .footer-right .footer-social-links li a .fa-twitter {
+  position: relative;
+  bottom: 2px;
+  left: 1px;
+}
+/* line 309, ../scss/breakpoints/_base.scss */
+footer.footer .footer-right .footer-social-links li a .fa-instagram {
+  position: relative;
+  bottom: 2px;
+}
+/* line 313, ../scss/breakpoints/_base.scss */
+footer.footer .footer-right .footer-social-links li a .fa-facebook {
+  bottom: 2px;
+  position: relative;
+}
+/* line 317, ../scss/breakpoints/_base.scss */
+footer.footer .footer-right .footer-social-links li a .fa-youtube {
+  position: relative;
+  bottom: 3px;
+}
+/* line 324, ../scss/breakpoints/_base.scss */
 footer.footer .footer-right .copyright {
   font-size: 0.8em;
   color: #5A79A9;
 }
 
-/* line 314, ../scss/breakpoints/_base.scss */
+/* line 331, ../scss/breakpoints/_base.scss */
 .nav {
   display: none;
   border-bottom: 0;
@@ -1889,7 +1910,7 @@ footer.footer .footer-right .copyright {
   /* end .menu li */
   /* end current highlighters */
 }
-/* line 319, ../scss/breakpoints/_base.scss */
+/* line 336, ../scss/breakpoints/_base.scss */
 .nav li a {
   display: block;
   color: #fff;
@@ -1899,7 +1920,7 @@ footer.footer .footer-right .copyright {
   -transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 334, ../scss/breakpoints/_base.scss */
+/* line 351, ../scss/breakpoints/_base.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 30px;
@@ -1909,7 +1930,7 @@ footer.footer .footer-right .copyright {
 /*********************
 PAGE TEMPLATES
 *********************/
-/* line 355, ../scss/breakpoints/_base.scss */
+/* line 372, ../scss/breakpoints/_base.scss */
 .wrap {
   width: 100%;
   padding: 0 15px;
@@ -1917,33 +1938,33 @@ PAGE TEMPLATES
   max-width: 1040px;
 }
 
-/* line 362, ../scss/breakpoints/_base.scss */
+/* line 379, ../scss/breakpoints/_base.scss */
 .home #homepage-hero {
   background: url(../images/hero-bg-frontpage.jpg) no-repeat;
   background-size: cover;
   padding: 50px 0;
 }
-/* line 367, ../scss/breakpoints/_base.scss */
+/* line 384, ../scss/breakpoints/_base.scss */
 .home #what-we-offer {
   padding: 30px 0;
 }
-/* line 370, ../scss/breakpoints/_base.scss */
+/* line 387, ../scss/breakpoints/_base.scss */
 .home #testimonials-container {
   padding: 40px 0;
 }
-/* line 374, ../scss/breakpoints/_base.scss */
+/* line 391, ../scss/breakpoints/_base.scss */
 .home .icon-main h2, .home .icon-main h4 {
   font-weight: bold;
   margin: 0;
 }
-/* line 378, ../scss/breakpoints/_base.scss */
+/* line 395, ../scss/breakpoints/_base.scss */
 .home .icon-main img {
   display: block;
   width: 100%;
   margin: 0 auto 20px;
   max-width: 150px;
 }
-/* line 385, ../scss/breakpoints/_base.scss */
+/* line 402, ../scss/breakpoints/_base.scss */
 .home .number {
   background-color: #fff;
   border-radius: 50%;
@@ -1951,21 +1972,21 @@ PAGE TEMPLATES
   -moz-border-radius: 50%;
   padding: 2px 13px 3px;
 }
-/* line 392, ../scss/breakpoints/_base.scss */
+/* line 409, ../scss/breakpoints/_base.scss */
 .home #mission-statement {
   padding: 30px 0;
 }
 
-/* line 396, ../scss/breakpoints/_base.scss */
+/* line 413, ../scss/breakpoints/_base.scss */
 .testimonial {
   position: relative;
 }
-/* line 398, ../scss/breakpoints/_base.scss */
+/* line 415, ../scss/breakpoints/_base.scss */
 .testimonial .testimonial-content {
   height: 100%;
   padding: 0 30px;
 }
-/* line 402, ../scss/breakpoints/_base.scss */
+/* line 419, ../scss/breakpoints/_base.scss */
 .testimonial .fa-angle-left {
   left: 0;
   position: absolute;
@@ -1976,11 +1997,11 @@ PAGE TEMPLATES
   -transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 411, ../scss/breakpoints/_base.scss */
+/* line 428, ../scss/breakpoints/_base.scss */
 .testimonial .fa-angle-left:hover {
   color: #37acf5;
 }
-/* line 415, ../scss/breakpoints/_base.scss */
+/* line 432, ../scss/breakpoints/_base.scss */
 .testimonial .fa-angle-right {
   float: right;
   position: absolute;
@@ -1992,140 +2013,140 @@ PAGE TEMPLATES
   -transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 425, ../scss/breakpoints/_base.scss */
+/* line 442, ../scss/breakpoints/_base.scss */
 .testimonial .fa-angle-right:hover {
   color: #37acf5;
 }
 
-/* line 430, ../scss/breakpoints/_base.scss */
+/* line 447, ../scss/breakpoints/_base.scss */
 .testimonial.active {
   display: block !important;
 }
 
-/* line 435, ../scss/breakpoints/_base.scss */
+/* line 452, ../scss/breakpoints/_base.scss */
 .page-template-page-aboutpage .subheader {
   color: #404543;
   font-size: 1.2em;
 }
-/* line 439, ../scss/breakpoints/_base.scss */
+/* line 456, ../scss/breakpoints/_base.scss */
 .page-template-page-aboutpage #aboutpage-hero {
   background: url(../images/about-us-bg.jpg) no-repeat;
   background-size: cover;
   padding: 50px 0;
 }
-/* line 444, ../scss/breakpoints/_base.scss */
+/* line 461, ../scss/breakpoints/_base.scss */
 .page-template-page-aboutpage #more-about-us,
 .page-template-page-aboutpage #meet-the-team {
   padding: 30px 0;
 }
-/* line 449, ../scss/breakpoints/_base.scss */
+/* line 466, ../scss/breakpoints/_base.scss */
 .page-template-page-aboutpage #meet-the-team .team-member {
   margin: 20px 0;
 }
-/* line 451, ../scss/breakpoints/_base.scss */
+/* line 468, ../scss/breakpoints/_base.scss */
 .page-template-page-aboutpage #meet-the-team .team-member h3.name {
   margin: 0;
   font-weight: 600;
   font-size: 1.3em;
 }
-/* line 456, ../scss/breakpoints/_base.scss */
+/* line 473, ../scss/breakpoints/_base.scss */
 .page-template-page-aboutpage #meet-the-team .team-member p.job-title {
   margin-top: 0;
   font-size: 1.1em;
   color: #656d6a;
 }
-/* line 461, ../scss/breakpoints/_base.scss */
+/* line 478, ../scss/breakpoints/_base.scss */
 .page-template-page-aboutpage #meet-the-team .team-member p.credentials {
   font-style: italic;
 }
-/* line 464, ../scss/breakpoints/_base.scss */
+/* line 481, ../scss/breakpoints/_base.scss */
 .page-template-page-aboutpage #meet-the-team .team-member img {
   display: block;
   margin: 0 auto;
   padding: 15px;
 }
-/* line 471, ../scss/breakpoints/_base.scss */
+/* line 488, ../scss/breakpoints/_base.scss */
 .page-template-page-aboutpage #contact-cta {
   padding: 30px 0;
 }
-/* line 473, ../scss/breakpoints/_base.scss */
+/* line 490, ../scss/breakpoints/_base.scss */
 .page-template-page-aboutpage #contact-cta h4.subheader {
   font-size: 1.4em;
   margin-bottom: 30px;
 }
 
-/* line 479, ../scss/breakpoints/_base.scss */
+/* line 496, ../scss/breakpoints/_base.scss */
 #servicespage-hero {
   background: url(../images/what-we-offer-banner.jpg) no-repeat;
   background-size: cover;
   padding: 100px 0;
 }
 
-/* line 485, ../scss/breakpoints/_base.scss */
+/* line 502, ../scss/breakpoints/_base.scss */
 .page-template-page-whatweofferpage .services.wrap {
   padding: 0;
 }
-/* line 488, ../scss/breakpoints/_base.scss */
+/* line 505, ../scss/breakpoints/_base.scss */
 .page-template-page-whatweofferpage .service {
   font-size: 1em;
   width: 100%;
   padding: 20px;
 }
-/* line 492, ../scss/breakpoints/_base.scss */
+/* line 509, ../scss/breakpoints/_base.scss */
 .page-template-page-whatweofferpage .service img {
   display: block;
   margin: 5px auto;
   height: auto;
   max-width: 35px;
 }
-/* line 498, ../scss/breakpoints/_base.scss */
+/* line 515, ../scss/breakpoints/_base.scss */
 .page-template-page-whatweofferpage .service h1 {
   margin-bottom: 0;
 }
-/* line 501, ../scss/breakpoints/_base.scss */
+/* line 518, ../scss/breakpoints/_base.scss */
 .page-template-page-whatweofferpage .service p:first-of-type {
   margin-top: 0;
 }
-/* line 504, ../scss/breakpoints/_base.scss */
+/* line 521, ../scss/breakpoints/_base.scss */
 .page-template-page-whatweofferpage .service a.gray-btn {
   margin-bottom: 0;
 }
-/* line 507, ../scss/breakpoints/_base.scss */
+/* line 524, ../scss/breakpoints/_base.scss */
 .page-template-page-whatweofferpage .service .service-link {
   display: none;
 }
 
-/* line 515, ../scss/breakpoints/_base.scss */
+/* line 532, ../scss/breakpoints/_base.scss */
 .page-template-page-fitness #fitnesspage-hero {
   background: url(../images/about-us-bg.jpg) no-repeat;
   background-size: 100%;
   padding: 100px 0;
 }
-/* line 520, ../scss/breakpoints/_base.scss */
+/* line 537, ../scss/breakpoints/_base.scss */
 .page-template-page-fitness .subheader {
   color: #404543;
   font-size: 1.2em;
 }
-/* line 524, ../scss/breakpoints/_base.scss */
+/* line 541, ../scss/breakpoints/_base.scss */
 .page-template-page-fitness #boot-camp {
   padding: 30px 0;
 }
 
-/* line 531, ../scss/breakpoints/_base.scss */
+/* line 548, ../scss/breakpoints/_base.scss */
 .page-template-page-contact .subheader {
   color: #404543;
   font-size: 1.2em;
   margin-bottom: 20px;
 }
-/* line 536, ../scss/breakpoints/_base.scss */
+/* line 553, ../scss/breakpoints/_base.scss */
 .page-template-page-contact .form-error {
   color: red;
 }
-/* line 539, ../scss/breakpoints/_base.scss */
+/* line 556, ../scss/breakpoints/_base.scss */
 .page-template-page-contact #contact-form {
   padding: 20px 0;
 }
-/* line 541, ../scss/breakpoints/_base.scss */
+/* line 558, ../scss/breakpoints/_base.scss */
 .page-template-page-contact #contact-form input[type="text"],
 .page-template-page-contact #contact-form input[type="password"],
 .page-template-page-contact #contact-form input[type="datetime"],
@@ -2148,7 +2169,7 @@ PAGE TEMPLATES
   margin-top: 8px;
   max-width: none;
 }
-/* line 563, ../scss/breakpoints/_base.scss */
+/* line 580, ../scss/breakpoints/_base.scss */
 .page-template-page-contact #contact-form input[type="text"].error,
 .page-template-page-contact #contact-form input[type="password"].error,
 .page-template-page-contact #contact-form input[type="datetime"].error,
@@ -2172,35 +2193,35 @@ PAGE TEMPLATES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 587, ../scss/breakpoints/_base.scss */
+/* line 604, ../scss/breakpoints/_base.scss */
 #content {
   margin-top: 1.5em;
 }
 
-/* line 590, ../scss/breakpoints/_base.scss */
+/* line 607, ../scss/breakpoints/_base.scss */
 .hentry {
   background-color: #fff;
   border-radius: 3px;
   margin-bottom: 1.5em;
   border: 1px solid #ccc;
 }
-/* line 595, ../scss/breakpoints/_base.scss */
+/* line 612, ../scss/breakpoints/_base.scss */
 .hentry header {
   border-bottom: 1px solid #f8f9fa;
   padding: 1.5em;
 }
-/* line 599, ../scss/breakpoints/_base.scss */
+/* line 616, ../scss/breakpoints/_base.scss */
 .hentry footer {
   padding: 1.5em;
   border-top: 1px solid #f8f9fa;
 }
-/* line 602, ../scss/breakpoints/_base.scss */
+/* line 619, ../scss/breakpoints/_base.scss */
 .hentry footer p {
   margin: 0;
 }
 
 /* end .hentry */
-/* line 608, ../scss/breakpoints/_base.scss */
+/* line 625, ../scss/breakpoints/_base.scss */
 .single-title,
 .page-title,
 .entry-title {
@@ -2208,7 +2229,7 @@ POSTS & CONTENT STYLES
 }
 
 /* post meta */
-/* line 623, ../scss/breakpoints/_base.scss */
+/* line 640, ../scss/breakpoints/_base.scss */
 .byline {
   color: #9fa6b4;
   font-style: italic;
@@ -2216,21 +2237,21 @@ POSTS & CONTENT STYLES
 }
 
 /* entry content */
-/* line 631, ../scss/breakpoints/_base.scss */
+/* line 648, ../scss/breakpoints/_base.scss */
 .entry-content {
   padding: 1.5em 1.5em 0;
 }
-/* line 633, ../scss/breakpoints/_base.scss */
+/* line 650, ../scss/breakpoints/_base.scss */
 .entry-content p {
   margin: 0 0 1.5em;
 }
-/* line 646, ../scss/breakpoints/_base.scss */
+/* line 663, ../scss/breakpoints/_base.scss */
 .entry-content table {
   width: 100%;
   border: 1px solid #eaedf2;
   margin-bottom: 1.5em;
 }
-/* line 650, ../scss/breakpoints/_base.scss */
+/* line 667, ../scss/breakpoints/_base.scss */
 .entry-content table caption {
   margin: 0 0 7px;
   font-size: 0.75em;
@@ -2238,34 +2259,34 @@ POSTS & CONTENT STYLES
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* line 658, ../scss/breakpoints/_base.scss */
+/* line 675, ../scss/breakpoints/_base.scss */
 .entry-content tr {
   border-bottom: 1px solid #eaedf2;
 }
-/* line 660, ../scss/breakpoints/_base.scss */
+/* line 677, ../scss/breakpoints/_base.scss */
 .entry-content tr:nth-child(even) {
   background-color: #f8f9fa;
 }
-/* line 664, ../scss/breakpoints/_base.scss */
+/* line 681, ../scss/breakpoints/_base.scss */
 .entry-content td {
   padding: 7px;
   border-right: 1px solid #eaedf2;
 }
-/* line 667, ../scss/breakpoints/_base.scss */
+/* line 684, ../scss/breakpoints/_base.scss */
 .entry-content td:last-child {
   border-right: 0;
 }
-/* line 671, ../scss/breakpoints/_base.scss */
+/* line 688, ../scss/breakpoints/_base.scss */
 .entry-content th {
   background-color: #f8f9fa;
   border-bottom: 1px solid #eaedf2;
   border-right: 1px solid #eaedf2;
 }
-/* line 675, ../scss/breakpoints/_base.scss */
+/* line 692, ../scss/breakpoints/_base.scss */
 .entry-content th:last-child {
   border-right: 0;
 }
-/* line 679, ../scss/breakpoints/_base.scss */
+/* line 696, ../scss/breakpoints/_base.scss */
 .entry-content blockquote {
   margin: 0 0 1.5em 0.75em;
   padding: 0 0 0 0.75em;
@@ -2273,20 +2294,20 @@ POSTS & CONTENT STYLES
   font-style: italic;
   color: #9fa6b4;
 }
-/* line 689, ../scss/breakpoints/_base.scss */
+/* line 706, ../scss/breakpoints/_base.scss */
 .entry-content dd {
   margin-left: 0;
   font-size: 0.9em;
   color: #787878;
   margin-bottom: 1.5em;
 }
-/* line 695, ../scss/breakpoints/_base.scss */
+/* line 712, ../scss/breakpoints/_base.scss */
 .entry-content img {
   margin: 0 0 1.5em 0;
   max-width: 100%;
   height: auto;
 }
-/* line 703, ../scss/breakpoints/_base.scss */
+/* line 720, ../scss/breakpoints/_base.scss */
 .entry-content .size-auto,
 .entry-content .size-full,
 .entry-content .size-large,
@@ -2295,7 +2316,7 @@ POSTS & CONTENT STYLES
   max-width: 100%;
   height: auto;
 }
-/* line 711, ../scss/breakpoints/_base.scss */
+/* line 728, ../scss/breakpoints/_base.scss */
 .entry-content pre {
   background: #323944;
   color: #f8f9fa;
@@ -2306,20 +2327,20 @@ POSTS & CONTENT STYLES
 }
 
 /* end .entry-content */
-/* line 721, ../scss/breakpoints/_base.scss */
+/* line 738, ../scss/breakpoints/_base.scss */
 .wp-caption {
   max-width: 100%;
   background: #eee;
   padding: 5px;
   /* images inside wp-caption */
 }
-/* line 727, ../scss/breakpoints/_base.scss */
+/* line 744, ../scss/breakpoints/_base.scss */
 .wp-caption img {
   max-width: 100%;
   margin-bottom: 0;
   width: 100%;
 }
-/* line 733, ../scss/breakpoints/_base.scss */
+/* line 750, ../scss/breakpoints/_base.scss */
 .wp-caption p.wp-caption-text {
   font-size: 0.85em;
   margin: 4px 0 7px;
@@ -2330,7 +2351,7 @@ POSTS & CONTENT STYLES
 /* image gallery styles */
 /* end .gallery */
 /* gallery caption styles */
-/* line 767, ../scss/breakpoints/_base.scss */
+/* line 784, ../scss/breakpoints/_base.scss */
 .tags {
   margin: 0;
 }
@@ -2338,17 +2359,17 @@ POSTS & CONTENT STYLES
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
-/* line 775, ../scss/breakpoints/_base.scss */
+/* line 792, ../scss/breakpoints/_base.scss */
 .pagination,
 .wp-prev-next {
   margin: 1.5em 0;
 }
 
-/* line 779, ../scss/breakpoints/_base.scss */
+/* line 796, ../scss/breakpoints/_base.scss */
 .pagination {
   text-align: center;
 }
-/* line 782, ../scss/breakpoints/_base.scss */
+/* line 799, ../scss/breakpoints/_base.scss */
 .pagination ul {
   display: inline-block;
   background-color: #fff;
@@ -2357,7 +2378,7 @@ PAGE NAVI STYLES
   clear: both;
   border-radius: 3px;
 }
-/* line 791, ../scss/breakpoints/_base.scss */
+/* line 808, ../scss/breakpoints/_base.scss */
 .pagination li {
   padding: 0;
   margin: 0;
@@ -2366,7 +2387,7 @@ PAGE NAVI STYLES
   overflow: hidden;
   border-right: 1px solid #eaedf2;
 }
-/* line 800, ../scss/breakpoints/_base.scss */
+/* line 817, ../scss/breakpoints/_base.scss */
 .pagination a, .pagination span {
   margin: 0;
   text-decoration: none;
@@ -2379,17 +2400,17 @@ PAGE NAVI STYLES
   display: block;
   color: #2f90cc;
 }
-/* line 812, ../scss/breakpoints/_base.scss */
+/* line 829, ../scss/breakpoints/_base.scss */
 .pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus {
   background-color: #2f90cc;
   color: #fff;
 }
-/* line 818, ../scss/breakpoints/_base.scss */
+/* line 835, ../scss/breakpoints/_base.scss */
 .pagination .current {
   cursor: default;
   color: #404543;
 }
-/* line 822, ../scss/breakpoints/_base.scss */
+/* line 839, ../scss/breakpoints/_base.scss */
 .pagination .current:hover, .pagination .current:focus {
   background-color: #fff;
   color: #404543;
@@ -2397,11 +2418,11 @@ PAGE NAVI STYLES
 
 /* end .bones_page_navi */
 /* fallback previous & next links */
-/* line 835, ../scss/breakpoints/_base.scss */
+/* line 852, ../scss/breakpoints/_base.scss */
 .wp-prev-next .prev-link {
   float: left;
 }
-/* line 839, ../scss/breakpoints/_base.scss */
+/* line 856, ../scss/breakpoints/_base.scss */
 .wp-prev-next .next-link {
   float: right;
 }
@@ -2411,7 +2432,7 @@ PAGE NAVI STYLES
 COMMENT STYLES
 ******************************************************************/
 /* h3 comment title */
-/* line 850, ../scss/breakpoints/_base.scss */
+/* line 867, ../scss/breakpoints/_base.scss */
 #comments-title {
   padding: 0.75em;
   margin: 0;
@@ -2419,13 +2440,13 @@ COMMENT STYLES
   /* number of comments span */
 }
 
-/* line 870, ../scss/breakpoints/_base.scss */
+/* line 887, ../scss/breakpoints/_base.scss */
 .commentlist {
   margin: 0;
   list-style-type: none;
 }
 
-/* line 875, ../scss/breakpoints/_base.scss */
+/* line 892, ../scss/breakpoints/_base.scss */
 .comment {
   position: relative;
   clear: both;
@@ -2437,78 +2458,78 @@ COMMENT STYLES
   /* end children */
   /* general comment classes */
 }
-/* line 882, ../scss/breakpoints/_base.scss */
+/* line 899, ../scss/breakpoints/_base.scss */
 .comment .comment-author {
   padding: 7px;
   border: 0;
 }
-/* line 888, ../scss/breakpoints/_base.scss */
+/* line 905, ../scss/breakpoints/_base.scss */
 .comment .vcard {
   margin-left: 50px;
 }
-/* line 891, ../scss/breakpoints/_base.scss */
+/* line 908, ../scss/breakpoints/_base.scss */
 .comment .vcard cite.fn {
   font-weight: 700;
   font-style: normal;
 }
-/* line 899, ../scss/breakpoints/_base.scss */
+/* line 916, ../scss/breakpoints/_base.scss */
 .comment .vcard time {
   display: block;
   font-size: 0.9em;
   font-style: italic;
 }
-/* line 904, ../scss/breakpoints/_base.scss */
+/* line 921, ../scss/breakpoints/_base.scss */
 .comment .vcard time a {
   color: #9fa6b4;
   text-decoration: none;
 }
-/* line 908, ../scss/breakpoints/_base.scss */
+/* line 925, ../scss/breakpoints/_base.scss */
 .comment .vcard time a:hover {
   text-decoration: underline;
 }
-/* line 918, ../scss/breakpoints/_base.scss */
+/* line 935, ../scss/breakpoints/_base.scss */
 .comment .vcard .avatar {
   position: absolute;
   left: 16px;
   border-radius: 50%;
 }
-/* line 926, ../scss/breakpoints/_base.scss */
+/* line 943, ../scss/breakpoints/_base.scss */
 .comment:last-child {
   margin-bottom: 0;
 }
-/* line 930, ../scss/breakpoints/_base.scss */
+/* line 947, ../scss/breakpoints/_base.scss */
 .comment .children {
   margin: 0;
   /* variations */
   /* change number for different depth */
 }
-/* line 948, ../scss/breakpoints/_base.scss */
+/* line 965, ../scss/breakpoints/_base.scss */
 .comment[class*=depth-] {
   margin-top: 1.1em;
 }
-/* line 952, ../scss/breakpoints/_base.scss */
+/* line 969, ../scss/breakpoints/_base.scss */
 .comment.depth-1 {
   margin-left: 0;
   margin-top: 0;
 }
-/* line 957, ../scss/breakpoints/_base.scss */
+/* line 974, ../scss/breakpoints/_base.scss */
 .comment:not(.depth-1) {
   margin-top: 0;
   margin-left: 7px;
   padding: 7px;
 }
-/* line 970, ../scss/breakpoints/_base.scss */
+/* line 987, ../scss/breakpoints/_base.scss */
 .comment.odd {
   background-color: #fff;
 }
-/* line 973, ../scss/breakpoints/_base.scss */
+/* line 990, ../scss/breakpoints/_base.scss */
 .comment.even {
   background: #f8f9fa;
 }
 
 /* comment meta */
 /* comment content */
-/* line 996, ../scss/breakpoints/_base.scss */
+/* line 1013, ../scss/breakpoints/_base.scss */
 .comment_content p {
   margin: 0.7335em 0 1.5em;
   font-size: 1em;
@@ -2517,7 +2538,7 @@ COMMENT STYLES
 
 /* end .commentlist .comment_content */
 /* comment reply link */
-/* line 1004, ../scss/breakpoints/_base.scss */
+/* line 1021, ../scss/breakpoints/_base.scss */
 .comment-reply-link {
   font-size: 0.9em;
   float: right;
@@ -2525,7 +2546,7 @@ COMMENT STYLES
 
 /* end .commentlist .comment-reply-link */
 /* edit comment link */
-/* line 1013, ../scss/breakpoints/_base.scss */
+/* line 1030, ../scss/breakpoints/_base.scss */
 .comment-edit-link {
   font-style: italic;
   margin: 0 7px;
@@ -2536,34 +2557,34 @@ COMMENT STYLES
 /******************************************************************
 COMMENT FORM STYLES
 ******************************************************************/
-/* line 1023, ../scss/breakpoints/_base.scss */
+/* line 1040, ../scss/breakpoints/_base.scss */
 .comment-respond {
   padding: 1.5em;
   border-top: 1px solid #f8f9fa;
 }
 
-/* line 1028, ../scss/breakpoints/_base.scss */
+/* line 1045, ../scss/breakpoints/_base.scss */
 #reply-title {
   margin: 0;
 }
 
-/* line 1031, ../scss/breakpoints/_base.scss */
+/* line 1048, ../scss/breakpoints/_base.scss */
 .logged-in-as {
   color: #9fa6b4;
   font-style: italic;
   margin: 0;
 }
-/* line 1035, ../scss/breakpoints/_base.scss */
+/* line 1052, ../scss/breakpoints/_base.scss */
 .logged-in-as a {
   color: #404543;
 }
 
-/* line 1039, ../scss/breakpoints/_base.scss */
+/* line 1056, ../scss/breakpoints/_base.scss */
 .comment-form-comment {
   margin: 1.5em 0 0.75em;
 }
 
-/* line 1043, ../scss/breakpoints/_base.scss */
+/* line 1060, ../scss/breakpoints/_base.scss */
 .form-allowed-tags {
   padding: 1.5em;
   background-color: #f8f9fa;
@@ -2571,14 +2592,14 @@ COMMENT FORM STYLES
 }
 
 /* comment submit button */
-/* line 1049, ../scss/breakpoints/_base.scss */
+/* line 1066, ../scss/breakpoints/_base.scss */
 #submit {
   float: right;
   font-size: 1em;
 }
 
 /* comment form title */
-/* line 1055, ../scss/breakpoints/_base.scss */
+/* line 1072, ../scss/breakpoints/_base.scss */
 #comment-form-title {
   margin: 0 0 1.1em;
 }
@@ -2586,13 +2607,13 @@ COMMENT FORM STYLES
 /* cancel comment reply link */
 /* logged in comments */
 /* allowed tags */
-/* line 1065, ../scss/breakpoints/_base.scss */
+/* line 1082, ../scss/breakpoints/_base.scss */
 #allowed_tags {
   margin: 1.5em 10px 0.7335em 0;
 }
 
 /* no comments */
-/* line 1069, ../scss/breakpoints/_base.scss */
+/* line 1086, ../scss/breakpoints/_base.scss */
 .nocomments {
   margin: 0 20px 1.1em;
 }
@@ -2600,7 +2621,7 @@ COMMENT FORM STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 1092, ../scss/breakpoints/_base.scss */
+/* line 1109, ../scss/breakpoints/_base.scss */
 .no-widgets {
   background-color: #fff;
   padding: 1.5em;
@@ -2613,7 +2634,7 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 1105, ../scss/breakpoints/_base.scss */
+/* line 1122, ../scss/breakpoints/_base.scss */
 .footer {
   clear: both;
   background-color: #323944;
@@ -3075,33 +3096,116 @@ you can add resource intensive styles.
   /*********************
   SIDEBARS & ASIDES
   *********************/
-  /* line 329, ../scss/breakpoints/_768up.scss */
-  .sidebar {
-    width: 22%;
-    float: right;
+  /* line 328, ../scss/breakpoints/_768up.scss */
+  .archive #main,
+  .date #main,
+  .search #main,
+  .search-results #main,
+  .search-no-results #main,
+  .search-paged-1 #main,
+  .blog #main,
+  .single #main {
+    width: 73%;
   }
-  /* line 332, ../scss/breakpoints/_768up.scss */
+
+  /* line 338, ../scss/breakpoints/_768up.scss */
+  .sidebar {
+    width: 25%;
+    float: right;
+    margin-bottom: 20px;
+  }
+  /* line 342, ../scss/breakpoints/_768up.scss */
   .sidebar .widget_search {
-    border: none;
     margin: 0 0 20px;
   }
-  /* line 336, ../scss/breakpoints/_768up.scss */
+  /* line 345, ../scss/breakpoints/_768up.scss */
   .sidebar .widget_categories {
-    border: none;
+    margin-bottom: 0;
   }
-  /* line 340, ../scss/breakpoints/_768up.scss */
+  /* line 348, ../scss/breakpoints/_768up.scss */
+  .sidebar .widget_text {
+    border: none;
+    padding: 0;
+    text-align: center;
+  }
+  /* line 352, ../scss/breakpoints/_768up.scss */
+  .sidebar .widget_text .footer-social-links {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  /* line 355, ../scss/breakpoints/_768up.scss */
+  .sidebar .widget_text .footer-social-links li {
+    padding: 0 3px;
+    margin-bottom: 0;
+    display: inline-block;
+  }
+  /* line 359, ../scss/breakpoints/_768up.scss */
+  .sidebar .widget_text .footer-social-links li a {
+    color: #fff;
+    background-color: #2f90cc;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transition: all 0.2s ease-in-out;
+    -transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  /* line 374, ../scss/breakpoints/_768up.scss */
+  .sidebar .widget_text .footer-social-links li a:hover {
+    background-color: #21648e;
+    -webkit-transition: all 0.2s ease-in-out;
+    -transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  /* line 380, ../scss/breakpoints/_768up.scss */
+  .sidebar .widget_text .footer-social-links li a .fa-twitter {
+    position: relative;
+    bottom: 2px;
+    left: 1px;
+  }
+  /* line 385, ../scss/breakpoints/_768up.scss */
+  .sidebar .widget_text .footer-social-links li a .fa-instagram {
+    position: relative;
+    bottom: 2px;
+  }
+  /* line 389, ../scss/breakpoints/_768up.scss */
+  .sidebar .widget_text .footer-social-links li a .fa-facebook {
+    bottom: 2px;
+    position: relative;
+  }
+  /* line 393, ../scss/breakpoints/_768up.scss */
+  .sidebar .widget_text .footer-social-links li a .fa-youtube {
+    position: relative;
+    bottom: 3px;
+  }
+  /* line 401, ../scss/breakpoints/_768up.scss */
+  .sidebar .jr-insta-slider {
+    border-bottom: 1px solid #323944;
+    border-top: 1px solid #323944;
+  }
+  /* line 406, ../scss/breakpoints/_768up.scss */
   .sidebar .searchform label {
     display: none;
   }
-  /* line 343, ../scss/breakpoints/_768up.scss */
-  .sidebar .searchform input[type="text"],
-  .sidebar .searchform input[type="search"] {
+  /* line 410, ../scss/breakpoints/_768up.scss */
+  .sidebar input[type="text"],
+  .sidebar input[type="search"] {
     background-color: #F9F9F9;
     border: 1px solid #eaedf2;
   }
-  /* line 348, ../scss/breakpoints/_768up.scss */
-  .sidebar .searchform input[type="submit"],
-  .sidebar .searchform button {
+  /* line 415, ../scss/breakpoints/_768up.scss */
+  .sidebar input[type="text"].is-error {
+    border: 1px solid #990E05;
+  }
+  /* line 418, ../scss/breakpoints/_768up.scss */
+  .sidebar input[type="submit"],
+  .sidebar button {
     border: none;
     border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -3116,19 +3220,44 @@ you can add resource intensive styles.
     -transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
   }
-  /* line 363, ../scss/breakpoints/_768up.scss */
-  .sidebar .searchform input[type="submit"]:hover, .sidebar .searchform input[type="submit"]:focus,
-  .sidebar .searchform button:hover,
-  .sidebar .searchform button:focus {
+  /* line 433, ../scss/breakpoints/_768up.scss */
+  .sidebar input[type="submit"]:hover, .sidebar input[type="submit"]:focus,
+  .sidebar button:hover,
+  .sidebar button:focus {
     background-color: #2779ab;
   }
-  /* line 367, ../scss/breakpoints/_768up.scss */
-  .sidebar .searchform input[type="submit"]:active,
-  .sidebar .searchform button:active {
+  /* line 437, ../scss/breakpoints/_768up.scss */
+  .sidebar input[type="submit"]:active,
+  .sidebar button:active {
     background-color: #2676a7;
   }
+  /* line 442, ../scss/breakpoints/_768up.scss */
+  .sidebar .ctct-embed-signup h2 {
+    font-size: 16px;
+  }
+  /* line 445, ../scss/breakpoints/_768up.scss */
+  .sidebar .ctct-embed-signup p {
+    font-size: 14px;
+  }
+  /* line 448, ../scss/breakpoints/_768up.scss */
+  .sidebar .ctct-embed-signup p.ctct-form-footer {
+    font-size: 10px;
+    line-height: 1.2;
+  }
+  /* line 452, ../scss/breakpoints/_768up.scss */
+  .sidebar .ctct-embed-signup .ctct-form-errorMessage {
+    color: #990E05;
+  }
+  /* line 455, ../scss/breakpoints/_768up.scss */
+  .sidebar .ctct-embed-signup a {
+    color: #fff;
+  }
+  /* line 458, ../scss/breakpoints/_768up.scss */
+  .sidebar .ctct-embed-signup button {
+    background-color: #ED7F07;
+  }
 
-  /* line 374, ../scss/breakpoints/_768up.scss */
+  /* line 464, ../scss/breakpoints/_768up.scss */
   .widgettitle {
     margin: 0 0 0.75em;
     text-align: center;
@@ -3136,18 +3265,16 @@ you can add resource intensive styles.
     text-transform: uppercase;
   }
 
-  /* line 381, ../scss/breakpoints/_768up.scss */
+  /* line 471, ../scss/breakpoints/_768up.scss */
   .widget {
-    border-bottom: 1px solid #323944;
-    border-top: 1px solid #323944;
     padding: 0.75em 10px;
     margin: 1em 0;
   }
-  /* line 387, ../scss/breakpoints/_768up.scss */
+  /* line 475, ../scss/breakpoints/_768up.scss */
   .widget ul li {
     margin-bottom: 0.75em;
   }
-  /* line 389, ../scss/breakpoints/_768up.scss */
+  /* line 477, ../scss/breakpoints/_768up.scss */
   .widget ul li ul {
     margin-top: 0.75em;
     padding-left: 1em;

@@ -593,33 +593,116 @@ footer.footer .footer-right .copyright {
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 329, ../scss/breakpoints/_768up.scss */
-.sidebar {
-  width: 22%;
-  float: right;
+/* line 328, ../scss/breakpoints/_768up.scss */
+.archive #main,
+.date #main,
+.search #main,
+.search-results #main,
+.search-no-results #main,
+.search-paged-1 #main,
+.blog #main,
+.single #main {
+  width: 73%;
 }
-/* line 332, ../scss/breakpoints/_768up.scss */
+
+/* line 338, ../scss/breakpoints/_768up.scss */
+.sidebar {
+  width: 25%;
+  float: right;
+  margin-bottom: 20px;
+}
+/* line 342, ../scss/breakpoints/_768up.scss */
 .sidebar .widget_search {
-  border: none;
   margin: 0 0 20px;
 }
-/* line 336, ../scss/breakpoints/_768up.scss */
+/* line 345, ../scss/breakpoints/_768up.scss */
 .sidebar .widget_categories {
-  border: none;
+  margin-bottom: 0;
 }
-/* line 340, ../scss/breakpoints/_768up.scss */
+/* line 348, ../scss/breakpoints/_768up.scss */
+.sidebar .widget_text {
+  border: none;
+  padding: 0;
+  text-align: center;
+}
+/* line 352, ../scss/breakpoints/_768up.scss */
+.sidebar .widget_text .footer-social-links {
+  display: inline-block;
+  margin: 0 auto;
+}
+/* line 355, ../scss/breakpoints/_768up.scss */
+.sidebar .widget_text .footer-social-links li {
+  padding: 0 3px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+/* line 359, ../scss/breakpoints/_768up.scss */
+.sidebar .widget_text .footer-social-links li a {
+  color: #fff;
+  background-color: #2f90cc;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  padding: 4px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-transition: all 0.2s ease-in-out;
+  -transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 374, ../scss/breakpoints/_768up.scss */
+.sidebar .widget_text .footer-social-links li a:hover {
+  background-color: #21648e;
+  -webkit-transition: all 0.2s ease-in-out;
+  -transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 380, ../scss/breakpoints/_768up.scss */
+.sidebar .widget_text .footer-social-links li a .fa-twitter {
+  position: relative;
+  bottom: 2px;
+  left: 1px;
+}
+/* line 385, ../scss/breakpoints/_768up.scss */
+.sidebar .widget_text .footer-social-links li a .fa-instagram {
+  position: relative;
+  bottom: 2px;
+}
+/* line 389, ../scss/breakpoints/_768up.scss */
+.sidebar .widget_text .footer-social-links li a .fa-facebook {
+  bottom: 2px;
+  position: relative;
+}
+/* line 393, ../scss/breakpoints/_768up.scss */
+.sidebar .widget_text .footer-social-links li a .fa-youtube {
+  position: relative;
+  bottom: 3px;
+}
+/* line 401, ../scss/breakpoints/_768up.scss */
+.sidebar .jr-insta-slider {
+  border-bottom: 1px solid #323944;
+  border-top: 1px solid #323944;
+}
+/* line 406, ../scss/breakpoints/_768up.scss */
 .sidebar .searchform label {
   display: none;
 }
-/* line 343, ../scss/breakpoints/_768up.scss */
-.sidebar .searchform input[type="text"],
-.sidebar .searchform input[type="search"] {
+/* line 410, ../scss/breakpoints/_768up.scss */
+.sidebar input[type="text"],
+.sidebar input[type="search"] {
   background-color: #F9F9F9;
   border: 1px solid #eaedf2;
 }
-/* line 348, ../scss/breakpoints/_768up.scss */
-.sidebar .searchform input[type="submit"],
-.sidebar .searchform button {
+/* line 415, ../scss/breakpoints/_768up.scss */
+.sidebar input[type="text"].is-error {
+  border: 1px solid #990E05;
+}
+/* line 418, ../scss/breakpoints/_768up.scss */
+.sidebar input[type="submit"],
+.sidebar button {
   border: none;
   border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -634,19 +717,44 @@ SIDEBARS & ASIDES
   -transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 363, ../scss/breakpoints/_768up.scss */
-.sidebar .searchform input[type="submit"]:hover, .sidebar .searchform input[type="submit"]:focus,
-.sidebar .searchform button:hover,
-.sidebar .searchform button:focus {
+/* line 433, ../scss/breakpoints/_768up.scss */
+.sidebar input[type="submit"]:hover, .sidebar input[type="submit"]:focus,
+.sidebar button:hover,
+.sidebar button:focus {
   background-color: #2779ab;
 }
-/* line 367, ../scss/breakpoints/_768up.scss */
-.sidebar .searchform input[type="submit"]:active,
-.sidebar .searchform button:active {
+/* line 437, ../scss/breakpoints/_768up.scss */
+.sidebar input[type="submit"]:active,
+.sidebar button:active {
   background-color: #2676a7;
 }
+/* line 442, ../scss/breakpoints/_768up.scss */
+.sidebar .ctct-embed-signup h2 {
+  font-size: 16px;
+}
+/* line 445, ../scss/breakpoints/_768up.scss */
+.sidebar .ctct-embed-signup p {
+  font-size: 14px;
+}
+/* line 448, ../scss/breakpoints/_768up.scss */
+.sidebar .ctct-embed-signup p.ctct-form-footer {
+  font-size: 10px;
+  line-height: 1.2;
+}
+/* line 452, ../scss/breakpoints/_768up.scss */
+.sidebar .ctct-embed-signup .ctct-form-errorMessage {
+  color: #990E05;
+}
+/* line 455, ../scss/breakpoints/_768up.scss */
+.sidebar .ctct-embed-signup a {
+  color: #fff;
+}
+/* line 458, ../scss/breakpoints/_768up.scss */
+.sidebar .ctct-embed-signup button {
+  background-color: #ED7F07;
+}
 
-/* line 374, ../scss/breakpoints/_768up.scss */
+/* line 464, ../scss/breakpoints/_768up.scss */
 .widgettitle {
   margin: 0 0 0.75em;
   text-align: center;
@@ -654,18 +762,16 @@ SIDEBARS & ASIDES
   text-transform: uppercase;
 }
 
-/* line 381, ../scss/breakpoints/_768up.scss */
+/* line 471, ../scss/breakpoints/_768up.scss */
 .widget {
-  border-bottom: 1px solid #323944;
-  border-top: 1px solid #323944;
   padding: 0.75em 10px;
   margin: 1em 0;
 }
-/* line 387, ../scss/breakpoints/_768up.scss */
+/* line 475, ../scss/breakpoints/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
 }
-/* line 389, ../scss/breakpoints/_768up.scss */
+/* line 477, ../scss/breakpoints/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
