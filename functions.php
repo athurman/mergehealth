@@ -110,6 +110,16 @@ function mergehealth_ahoy() {
 // let's get this party started
 add_action( 'after_setup_theme', 'mergehealth_ahoy' );
 
+/************* OVERRIDE SEARCH *************/
+
+function SearchFilter($query) {
+  if ($query->is_search) {
+    $query->set('post_type', 'post');
+  }
+  return $query;
+}
+
+add_filter('pre_get_posts','SearchFilter');
 
 /************* OEMBED SIZE OPTIONS *************/
 
