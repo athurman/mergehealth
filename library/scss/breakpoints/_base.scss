@@ -627,6 +627,17 @@ PAGE TEMPLATES
     }
   }
 }
+
+// 404 Page
+.error404 {
+  background-color: $black;
+  background: url(../images/error-page-bg.jpg) no-repeat;
+  background-size: cover;
+  #error-page-container {
+    padding: 200px 0;
+    color: $white;
+  }
+}
 /*********************
 POSTS & CONTENT STYLES
 *********************/
