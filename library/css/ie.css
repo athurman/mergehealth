@@ -328,12 +328,12 @@ PAGE TEMPLATES
 
 /* line 76, ../scss/breakpoints/_768up.scss */
 .testimonial {
-  min-height: 380px;
+  min-height: 340px;
 }
 /* line 78, ../scss/breakpoints/_768up.scss */
 .testimonial .testimonial-content {
   height: 100%;
-  padding: 8% 45px;
+  padding: 6% 45px;
 }
 
 /* line 86, ../scss/breakpoints/_768up.scss */

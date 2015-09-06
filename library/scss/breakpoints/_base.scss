@@ -70,6 +70,23 @@ body {
   display: block;
   color: $white;
 }
+.sr-only {
+  display: none;
+}
+.carousel-control.left,
+.carousel-control.right {
+  background: none;
+  font-size: 3.5em;
+  color: $text-color;
+  span {
+    display: block;
+    position: relative;
+    top: 80px;
+  }
+  .sr-only {
+    display: none;
+  }
+}
 // Buttons
 .blue-btn,
 a.blue-btn {
@@ -389,7 +406,7 @@ PAGE TEMPLATES
     padding: 30px 0;
   }
   #testimonials-container {
-    padding: 40px 0;
+    padding: 20px 0;
   }
   .icon-main {
     h2, h4 {
@@ -419,6 +436,12 @@ PAGE TEMPLATES
   .testimonial-content {
     height: 100%;
     padding: 0 30px;
+    width: 85%;
+    margin: 0 auto;
+    font-size: 15px;
+    h3 {
+      margin-top: 0;
+    }
   }
   .fa-angle-left {
     left: 0;
@@ -633,11 +656,13 @@ PAGE TEMPLATES
   background-color: $black;
   background: url(../images/error-page-bg.jpg) no-repeat;
   background-size: cover;
+  background-position: 55%;
   #error-page-container {
     padding: 200px 0;
     color: $white;
   }
 }
+
 /*********************
 POSTS & CONTENT STYLES
 *********************/
