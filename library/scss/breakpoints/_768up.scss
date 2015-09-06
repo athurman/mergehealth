@@ -325,48 +325,138 @@ footer.footer {
 /*********************
 SIDEBARS & ASIDES
 *********************/
-
+.archive #main,
+.date #main,
+.search #main,
+.search-results #main,
+.search-no-results #main,
+.search-paged-1 #main,
+.blog #main,
+.single #main {
+  width: 73%;
+}
 .sidebar {
-  width: 22%;
+  width: 25%;
   float: right;
+  margin-bottom: 20px;
   .widget_search {
-    border: none;
     margin: 0 0 20px;
   }
   .widget_categories {
+    margin-bottom: 0;
+  }
+  .widget_text {
     border: none;
+    padding: 0;
+    text-align: center;
+    .footer-social-links {
+      display: inline-block;
+      margin: 0 auto;
+      li {
+        padding: 0 3px;
+        margin-bottom: 0;
+        display: inline-block;
+        a {
+          color: $white;
+          background-color: $blue;
+          width: 35px;
+          height: 35px;
+          font-size: 20px;
+          text-align: center;
+          display: inline-block;
+          padding: 4px;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -webkit-transition: all 0.2s ease-in-out;
+          -transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+          &:hover {
+            background-color: darken($blue, 15%);
+            -webkit-transition: all 0.2s ease-in-out;
+            -transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+          }
+          .fa-twitter {
+            position: relative;
+            bottom: 2px;
+            left: 1px;
+          }
+          .fa-instagram {
+            position: relative;
+            bottom: 2px;
+          }
+          .fa-facebook {
+            bottom: 2px;
+            position: relative;
+          }
+          .fa-youtube {
+            position: relative;
+            bottom: 3px;
+          }
+        }
+      }
+    }
+  }
+  .jr-insta-slider {
+    border-bottom: 1px solid #323944;
+    border-top: 1px solid #323944;
   }
   .searchform {
     label {
       display: none;
     }
-    input[type="text"],
-    input[type="search"] {
-      background-color: #F9F9F9;
-      border: 1px solid $gray;
+  }
+  input[type="text"],
+  input[type="search"] {
+    background-color: #F9F9F9;
+    border: 1px solid $gray;
+  }
+  input[type="text"].is-error {
+    border: 1px solid #990E05;
+  }
+  input[type="submit"],
+  button {
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    display: block;
+    max-width: 275px;
+    padding: 10px 30px;
+    text-align: center;
+    color: $white !important;
+    background-color: $blue;
+    -webkit-transition: all 0.2s ease-in-out;
+    -transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    &:hover,
+    &:focus {
+      background-color: darken($blue, 8%);
     }
-    input[type="submit"],
+    &:active {
+      background-color: darken($blue, 9%);
+    }
+  }
+  .ctct-embed-signup {
+    h2 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 14px;
+    }
+    p.ctct-form-footer {
+      font-size: 10px;
+      line-height: 1.2;
+    }
+    .ctct-form-errorMessage {
+      color: #990E05;
+    }
+    a {
+      color: $white;
+    }
     button {
-      border: none;
-      border-radius: 3px;
-      -webkit-border-radius: 3px;
-      -moz-border-radius: 3px;
-      display: block;
-      max-width: 275px;
-      padding: 10px 30px;
-      text-align: center;
-      color: $white !important;
-      background-color: $blue;
-      -webkit-transition: all 0.2s ease-in-out;
-      -transition: all 0.2s ease-in-out;
-      transition: all 0.2s ease-in-out;
-      &:hover,
-      &:focus {
-        background-color: darken($blue, 8%);
-      }
-      &:active {
-        background-color: darken($blue, 9%);
-      }
+      background-color: #ED7F07;
     }
   }
 }
@@ -379,8 +469,6 @@ SIDEBARS & ASIDES
 }
 
 .widget {
-  border-bottom: 1px solid #323944;
-  border-top: 1px solid #323944;
   padding: 0.75em 10px;
   margin: 1em 0;
   ul {

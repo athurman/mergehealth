@@ -301,6 +301,23 @@ footer.footer {
             -transition: all 0.2s ease-in-out;
             transition: all 0.2s ease-in-out;
           }
+          .fa-twitter {
+            position: relative;
+            bottom: 2px;
+            left: 1px;
+          }
+          .fa-instagram {
+            position: relative;
+            bottom: 2px;
+          }
+          .fa-facebook {
+            bottom: 2px;
+            position: relative;
+          }
+          .fa-youtube {
+            position: relative;
+            bottom: 3px;
+          }
         }
       }
     }
