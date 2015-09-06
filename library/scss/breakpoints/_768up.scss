@@ -25,7 +25,9 @@ body {}
   font-size: 1.75em;
   margin: 0;
 }
-
+.mobile-container {
+  display: none;
+}
 /*********************
 BLOG TEMPLATES
 *********************/
@@ -133,8 +135,22 @@ PAGE TEMPLATES
 
 // Fitness Services Page
 .page-template-page-fitness {
-  .subheader {
-    font-size: 1.75em;
+  #fitnesspage-hero {
+    background: url(../images/about-us-bg.jpg) no-repeat;
+    background-size: 100%;
+    padding: 100px 0;
+  }
+  .sub-main {
+    font-size: 2em;
+  }
+  #personal-training {
+    padding: 80px 0;
+    border-top: 1px solid $white;
+    border-bottom: 1px solid $white;
+    background: url(../images/fitness-bg.jpg) no-repeat;
+    background-size: cover;
+    background-color: $black;
+    color: $white;
   }
 }
 
@@ -344,6 +360,11 @@ SIDEBARS & ASIDES
   }
   .widget_categories {
     margin-bottom: 0;
+    ul {
+      li {
+        margin-bottom: 0;
+      }
+    }
   }
   .widget_text {
     border: none;
