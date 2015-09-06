@@ -125,38 +125,39 @@ function mergehealth_scripts_and_styles() {
 
   if (!is_admin()) {
 
-		// modernizr (without media query polyfill)
-		wp_register_script( 'mergehealth-modernizr', get_stylesheet_directory_uri() . '/library/js/libs/modernizr.custom.min.js', array(), '2.5.3', false );
+    // modernizr (without media query polyfill)
+    wp_register_script( 'mergehealth-modernizr', get_stylesheet_directory_uri() . '/library/js/libs/modernizr.custom.min.js', array(), '2.5.3', false );
 
-		// register main stylesheet
-		wp_register_style( 'mergehealth-stylesheet', get_stylesheet_directory_uri() . '/library/css/style.css', array(), '', 'all' );
+    // register main stylesheet
+    wp_register_style( 'mergehealth-stylesheet', get_stylesheet_directory_uri() . '/library/css/style.css', array(), '', 'all' );
 
-		// ie-only style sheet
-		wp_register_style( 'mergehealth-ie-only', get_stylesheet_directory_uri() . '/library/css/ie.css', array(), '' );
+    // ie-only style sheet
+    wp_register_style( 'mergehealth-ie-only', get_stylesheet_directory_uri() . '/library/css/ie.css', array(), '' );
 
     // comment reply script for threaded comments
     if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
-		  wp_enqueue_script( 'comment-reply' );
+      wp_enqueue_script( 'comment-reply' );
     }
 
-		//adding scripts file in the footer
-		wp_register_script( 'mergehealth-js', get_stylesheet_directory_uri() . '/library/js/scripts.js', array( 'jquery' ), '', true );
+    //adding scripts file in the footer
+    wp_register_script( 'mergehealth-js', get_stylesheet_directory_uri() . '/library/js/scripts.js', array( 'jquery' ), '', true );
+    wp_register_script( 'bootstrap-js', get_stylesheet_directory_uri() . '/library/js/bootstrap.min.js', array( 'jquery' ), '', true );
 
-		// enqueue styles and scripts
-		wp_enqueue_script( 'mergehealth-modernizr' );
-		wp_enqueue_style( 'mergehealth-stylesheet' );
-		wp_enqueue_style( 'mergehealth-ie-only' );
+    // enqueue styles and scripts
+    wp_enqueue_script( 'mergehealth-modernizr' );
+    wp_enqueue_style( 'mergehealth-stylesheet' );
+    wp_enqueue_style( 'mergehealth-ie-only' );
 
-		$wp_styles->add_data( 'mergehealth-ie-only', 'conditional', 'lt IE 9' ); // add conditional wrapper around ie stylesheet
+    $wp_styles->add_data( 'mergehealth-ie-only', 'conditional', 'lt IE 9' ); // add conditional wrapper around ie stylesheet
 
-		/*
-		I recommend using a plugin to call jQuery
-		using the google cdn. That way it stays cached
-		and your site will load faster.
-		*/
-		wp_enqueue_script( 'jquery' );
-		wp_enqueue_script( 'mergehealth-js' );
-
+    /*
+    I recommend using a plugin to call jQuery
+    using the google cdn. That way it stays cached
+    and your site will load faster.
+    */
+    wp_enqueue_script( 'jquery' );
+    wp_enqueue_script( 'mergehealth-js' );
+    wp_enqueue_script( 'bootstrap-js' );
 	}
 }
 
