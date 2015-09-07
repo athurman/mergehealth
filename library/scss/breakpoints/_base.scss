@@ -268,6 +268,30 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
+#mobile-navigation {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  border-top: 1px solid #e5e5e4;
+  .menu-item {
+    float: left;
+    width: 25%;
+    background-color: $white;
+    height: 50px;
+    a {
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      border-right: 1px solid #e5e5e4;
+      color: $text-color;
+      background-color: $white;
+      font-size: 1.75em;
+      padding: 5px 0;
+    }
+  }
+}
+
 footer.footer {
   padding: 20px 0;
   #inner-footer {

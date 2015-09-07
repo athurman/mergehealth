@@ -1,3 +1,26 @@
+      <div id="mobile-navigation" class="mobile-container">
+        <div class="home menu-item">
+          <a href="<?php echo home_url(); ?>/">
+            <i class="fa fa-home"></i>
+          </a>
+        </div>
+        <div class="blog menu-item">
+          <a href="<?php echo home_url(); ?>/blog">
+            <i class="fa fa-commenting"></i>
+          </a>
+        </div>
+        <div class="what-we-offer menu-item">
+          <a href="<?php echo home_url(); ?>/what-we-offer">
+            <i class="fa fa-list"></i>
+          </a>
+        </div>
+        <div class="about menu-item">
+          <a href="<?php echo home_url(); ?>/about">
+            <i class="fa fa-info-circle"></i>
+          </a>
+        </div>
+        <div class="clear"></div>
+      </div>
       <footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
         <div id="inner-footer" class="wrap cf">
           <nav role="navigation">
