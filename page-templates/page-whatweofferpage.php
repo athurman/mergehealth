@@ -61,7 +61,7 @@ $events = get_field('events');
         <h1 class="text-center">Counseling</h1>
         <img src="<?php echo get_template_directory_uri(); ?>/library/images/counseling-icon.png" alt="Counseling Icon Word Bubbles">
         <?php echo $counseling; ?>
-        <a href="#" class="gray-btn">Learn More</a>
+        <a href="<?php echo home_url(); ?>/counseling" class="gray-btn">Learn More</a>
         <div class="service-link">
           <a href="#">Learn More</a>
         </div>
