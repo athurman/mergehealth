@@ -126,7 +126,10 @@ a.gray-btn {
     background-color: darken(#5C6A73, 7%);
   }
 }
-
+ul {
+  padding: 0 15px 0 0;
+  list-style-type: disc;
+}
 /********************
 WORDPRESS BODY CLASSES
 style a page via class
@@ -588,6 +591,52 @@ PAGE TEMPLATES
     }
   }
   #swim {
+    background-color: lighten($black, 10%);
+    a {
+      display: none;
+    }
+  }
+}
+
+// Health and Nutrition Page
+.page-template-page-healthandnutrition {
+  .subheader {
+    color: $text-color;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  #nutritionpage-hero {
+    background: url(../images/health-and-nutrition-bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+  }
+  #nutrition-coaching {
+    background-color: lighten($black, 10%);
+    a {
+      display: none;
+    }
+  }
+  .sub-main {
+    color: $white;
+  }
+  .subheader {
+    color: $text-color;
+    font-size: 1.2em;
+  }
+  #monthly-challenges {
+    color: $text-color;
+    padding: 30px 0;
+    .sub-main {
+      color: $text-color;
+    }
+    .mobile-container {
+      color: $text-color;
+    }
+    a {
+      display: none;
+    }
+  }
+  #merge-moms {
     background-color: lighten($black, 10%);
     a {
       display: none;
