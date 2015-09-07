@@ -54,7 +54,7 @@ $events = get_field('events');
         <?php echo $corporate_wellness; ?>
         <a href="#" class="gray-btn">Learn More</a>
         <div class="service-link">
-          <a href="#">Learn More</a>
+          <a href="<?php echo home_url(); ?>/corporate-wellness">Learn More</a>
         </div>
       </div>
       <div class="service light-blue">
