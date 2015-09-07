@@ -28,13 +28,13 @@ $testimonial_query = new WP_Query( $args );
       <div class="m-all t-1of3 d-1of3 icon-main">
         <img src="<?php echo get_template_directory_uri(); ?>/library/images/mergehealth-icon-health.png" alt="Health Icon Holding Plant">
         <h2 class="text-center upcase"><span class="number">1</span></h2>
-        <h4 class="text-center upcase"><a href="#">Health</a></h4>
+        <h4 class="text-center upcase"><a href="<?php echo home_url(); ?>/health-and-nutrition">Health</a></h4>
         <p class="text-center">Gain a deeper self understanding and uncover ways to move forward in positive, healthy ways.</p>
       </div>
       <div class="m-all t-1of3 d-1of3 icon-main">
         <img src="<?php echo get_template_directory_uri(); ?>/library/images/mergehealth-icon-nutrition.png" alt="Nutrition Icon Grains">
         <h2 class="text-center upcase"><span class="number">2</span></h2>
-        <h4 class="text-center upcase"><a href="#">Nutrition</a></h4>
+        <h4 class="text-center upcase"><a href="<?php echo home_url(); ?>/health-and-nutrition">Nutrition</a></h4>
         <p class="text-center">Discover how food and lifestyle choices affect every aspect of your life, including energy and stress.</p>
       </div>
       <div class="m-all t-1of3 d-1of3 icon-main">

@@ -71,8 +71,10 @@ $swim_classes_text = get_field('swim_classes_text');
           echo $personal_training_text;
         }
         ?>
+        <p><a href="mailto:info@mergeintohealth.com?Subject=Personal%20Training%20Inquiry">Email us for more information.</a></p>
       </div>
       <div class="modal-footer">
+        <a href="<?php echo home_url(); ?>/contact/" class="blue-btn">Get Started Today</a>
       </div>
     </div>
   </div>
@@ -91,8 +93,10 @@ $swim_classes_text = get_field('swim_classes_text');
           echo $boot_camp_text;
         }
         ?>
+        <p><a href="mailto:info@mergeintohealth.com?Subject=Boot%20Camp%20Inquiry">Email us for more information.</a></p>
       </div>
       <div class="modal-footer">
+        <a href="<?php echo home_url(); ?>/contact/" class="blue-btn">Get Started Today</a>
       </div>
     </div>
   </div>
@@ -111,8 +115,10 @@ $swim_classes_text = get_field('swim_classes_text');
           echo $swim_classes_text;
         }
         ?>
+        <p><a href="mailto:info@mergeintohealth.com?Subject=Swim%20Class%20Inquiry">Email us for more information.</a></p>
       </div>
       <div class="modal-footer">
+        <a href="<?php echo home_url(); ?>/contact/" class="blue-btn">Get Started Today</a>
       </div>
     </div>
   </div>

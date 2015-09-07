@@ -12,7 +12,7 @@
               <li class='link-top'>Services</li>
               <li><a href="<?php echo home_url(); ?>/fitness-services">Fitness</a></li>
               <li><a href="#">Counseling</a></li>
-              <li><a href="#">Health & Nutrition</a></li>
+              <li><a href="<?php echo home_url(); ?>/health-and-nutrition">Health & Nutrition</a></li>
               <li><a href="#">Corporate Wellness</a></li>
             </ul>
             <ul class='site-nav footer-links'>
