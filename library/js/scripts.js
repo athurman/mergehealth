@@ -115,8 +115,35 @@ jQuery(document).ready(function($) {
    * You can remove this if you don't need it
   */
   loadGravatars();
-
+  initialize($);
 }); /* end of as page load scripts */
+
+function initialize($) {
+  $('.counseling-link').click(clickScrollSection);
+}
+
+function clickScrollSection(e) {
+  e.preventDefault();
+  var offset = 97;
+  if(jQuery(this).text() === 'About') {
+    windowScroll('#about-counseling', offset);
+  } else if(jQuery(this).text() === 'Counseling') {
+    windowScroll(jQuery('#counseling-services'), offset);
+  } else if(jQuery(this).text() === 'Health Coaching') {
+    windowScroll(jQuery('#health-coaching-services'), offset);
+  } else if(jQuery(this).text() === 'Retreats') {
+    windowScroll(jQuery('#retreats'), offset);
+  } else if(jQuery(this).text() === 'Contact') {
+    windowScroll(jQuery('#contact-section'), offset);
+  }
+}
+
+function windowScroll(section, offset) {
+  debugger;
+  jQuery('html, body').animate({
+    scrollTop: jQuery(section).offset().top - offset
+  }, 600);
+}
 
 jQuery(document).ready(function($) {
   $('#contact-form-submit').on('click', clickSubmitContact);

@@ -72,16 +72,19 @@
           <nav>
             <ul class="navigation">
               <li>
-                <a href="#">About</a>
+                <a class="counseling-link" href="#">About</a>
               </li>
               <li>
-                <a href="#">Counseling</a>
+                <a class="counseling-link" href="#">Counseling</a>
               </li>
               <li>
-                <a href="#">Retreats</a>
+                <a class="counseling-link" href="#">Health Coaching</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a class="counseling-link" href="#">Retreats</a>
+              </li>
+              <li>
+                <a class="counseling-link" href="#">Contact</a>
               </li>
             </ul>
           </nav>
