@@ -99,7 +99,7 @@ a.blue-btn {
   color: $white !important;
   background-color: $bright-blue;
   -webkit-transition: all 0.2s ease-in-out;
-  moz-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   &:hover {
     background-color: darken($bright-blue, 7%);
@@ -197,7 +197,7 @@ a, a:visited {
   transition: all 0.2s ease-in-out;
   &:hover, &:focus {
     -webkit-transition: all 0.2s ease-in-out;
-    -transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     color: $link-hover;
   }
@@ -784,6 +784,48 @@ PAGE TEMPLATES
   #counseling-services {
     background: url(../images/counseling-services-bg.jpg) no-repeat;
     background-size: cover;
+  }
+  #health-coaching-services {
+    background: url(../images/health-coaching-bg.jpg) no-repeat;
+    background-size: cover;
+  }
+  #retreats {
+    background: url(../images/retreats-bg.jpg) no-repeat;
+    background-size: cover;
+  }
+  #contact-section {
+    background: url(../images/contact-bg.jpg) no-repeat;
+    background-size: cover;
+    h2 {
+      margin: 0;
+      a {
+        color: $white;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        border-bottom: 1px solid transparent;
+        &:hover {
+          border-bottom: 1px solid $white;
+        }
+      }
+    }
+    ul {
+      margin: 0;
+      li {
+        display: inline-block;
+        font-size: 25px;
+        padding: 5px 7px;
+        a {
+          color: $white;
+          -webkit-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+          &:hover {
+            color: darken($white, 15%);
+          }
+        }
+      }
+    }
   }
   .teal {
     background-color: #6AB0A9;

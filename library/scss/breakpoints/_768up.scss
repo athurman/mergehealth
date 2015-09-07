@@ -367,12 +367,35 @@ PAGE TEMPLATES
   #about-counseling {
     background: url(../images/meghan-bg-image.jpg) no-repeat;
     background-size: cover;
+    background-position: 100%;
     padding: 100px 0;
   }
   #counseling-services {
     background: url(../images/counseling-services-bg.jpg) no-repeat;
     background-size: cover;
     padding: 100px 0;
+  }
+  #health-coaching-services {
+    background: url(../images/health-coaching-bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+  }
+  #retreats {
+    background: url(../images/retreats-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    padding: 100px 0;
+  }
+  #contact-section {
+    background: url(../images/contact-bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    h2 {
+      margin: 0;
+      a {
+        color: $white;
+      }
+    }
   }
 }
 
