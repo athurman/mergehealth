@@ -268,6 +268,14 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
+#cousneling-header {
+  nav {
+    display: none;
+  }
+}
+.conseling-sub-navigation {
+  display: none;
+}
 #mobile-navigation {
   width: 100%;
   position: fixed;
@@ -341,7 +349,7 @@ footer.footer {
           -webkit-border-radius: 50%;
           -moz-border-radius: 50%;
           -webkit-transition: all 0.2s ease-in-out;
-          -transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
           &:hover {
             background-color: darken($blue, 15%);
@@ -741,6 +749,64 @@ PAGE TEMPLATES
   }
 }
 
+// Counseling Page
+.page-template-page-counseling {
+  margin-top: 51px;
+  font-family: 'Quicksand', sans-serif;
+  color: $white;
+  h1.counseling-header,
+  h2.counseling-sub-header {
+    color: $white;
+    text-align: center;
+  }
+  h1.counseling-header {
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  h2.counseling-sub-header {
+    margin-top: 0;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  h4.section-header {
+    margin: 10px 0;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .section {
+    border-bottom: 1px solid $white;
+  }
+  #about-counseling {
+    background: url(../images/meghan-bg-image.jpg) no-repeat;
+    background-size: cover;
+  }
+  #counseling-services {
+    background: url(../images/counseling-services-bg.jpg) no-repeat;
+    background-size: cover;
+  }
+  .teal {
+    background-color: #6AB0A9;
+  }
+  .pink {
+    background-color: #D98088;
+  }
+  .magenta {
+    background-color: #8C455F;
+  }
+  .light-blue {
+    background-color: #527FD9;
+  }
+  .dark-blue {
+    background-color: #063175;
+  }
+}
+// Counseling Header
+#cousneling-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 // 404 Page
 .error404 {
   background-color: $black;
