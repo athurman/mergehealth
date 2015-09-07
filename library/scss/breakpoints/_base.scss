@@ -700,6 +700,23 @@ PAGE TEMPLATES
   }
 }
 
+// Corporate Wellness Page
+.page-template-page-corporatewellness {
+  .subheader {
+    color: $text-color;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  .textured {
+    padding: 30px 0;
+  }
+  #corporate-wellness-hero {
+    background: url(../images/corporate-wellness-bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+  }
+}
+
 // 404 Page
 .error404 {
   background-color: $black;

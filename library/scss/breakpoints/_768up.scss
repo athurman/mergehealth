@@ -228,6 +228,7 @@ PAGE TEMPLATES
   #nutritionpage-hero {
     background: url(../images/health-and-nutrition-bg.jpg) no-repeat;
     background-size: 100%;
+    background-position: 70%;
     padding: 100px 0;
   }
   #nutrition-coaching {
@@ -330,6 +331,22 @@ PAGE TEMPLATES
     .wrap {
       max-width: 750px;
     }
+  }
+}
+
+// Corporate Wellness Page
+.page-template-page-corporatewellness {
+  .subheader {
+    font-size: 1.75em;
+  }
+  .textured {
+    padding: 30px 0;
+  }
+  #corporate-wellness-hero {
+    background: url(../images/corporate-wellness-bg.jpg) no-repeat;
+    background-size: 100%;
+    background-position: 100%;
+    padding: 100px 0;
   }
 }
 
