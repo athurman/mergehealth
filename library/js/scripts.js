@@ -170,13 +170,15 @@ jQuery(document).ready(function($) {
         async: false,
         data: ({action : 'send_contact_form_function', name: name, email: email, phone: phone, message: message}),
         success: function(response) {
-          if(response == 'success') {
-            $('.form-container').hide();
-            if($('.form-stuff h4.step-name').length == 0)
+          if(response[0] === 'success') {
+            $('.form-container form').hide();
+            if($('.form-stuff h4.step-name').length === 0) {
               $('.form-stuff').append('<h4 class="step-name">Thank you for contacting us!</h4>');
+            }
           } else {
-            if($('.form-stuff h4.step-name').length == 0)
+            if($('.form-stuff h4.step-name').length === 0) {
               $('.form-stuff').append('<h4 class="step-name">Something appeared to have gone wrong, please try again.</h4>');
+            }
           }
         }
       });
