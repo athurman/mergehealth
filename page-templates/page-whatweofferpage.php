@@ -25,7 +25,7 @@ $events = get_field('events');
         <h1 class="text-center">Health & Nutrition</h1>
         <img src="<?php echo get_template_directory_uri(); ?>/library/images/nutrition-icon.png" alt="Nutrition Icon Plant">
         <?php echo $health_and_nutrition; ?>
-        <a href="#" class="gray-btn">Learn More</a>
+        <a href="<?php echo home_url(); ?>/health-and-nutrition" class="gray-btn">Learn More</a>
         <div class="service-link">
           <a href="<?php echo home_url(); ?>/health-and-nutrition">Learn More</a>
         </div>
@@ -52,7 +52,7 @@ $events = get_field('events');
         <h1 class="text-center">Corporate Wellness</h1>
         <img src="<?php echo get_template_directory_uri(); ?>/library/images/merge-icon.png" alt="Merge Health, Fitness and Nutrition Icon">
         <?php echo $corporate_wellness; ?>
-        <a href="#" class="gray-btn">Learn More</a>
+        <a href="<?php echo home_url(); ?>/corporate-wellness" class="gray-btn">Learn More</a>
         <div class="service-link">
           <a href="<?php echo home_url(); ?>/corporate-wellness">Learn More</a>
         </div>
@@ -63,7 +63,7 @@ $events = get_field('events');
         <?php echo $counseling; ?>
         <a href="<?php echo home_url(); ?>/counseling" class="gray-btn">Learn More</a>
         <div class="service-link">
-          <a href="#">Learn More</a>
+          <a href="<?php echo home_url(); ?>/counseling">Learn More</a>
         </div>
       </div>
       <div class="service textured">
