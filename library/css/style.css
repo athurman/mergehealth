@@ -2755,7 +2755,7 @@ a.gray-btn:hover {
 
 /* line 129, ../scss/breakpoints/_base.scss */
 ul {
-  padding: 0 15px 0 0;
+  padding: 0 0 0 15px;
   list-style-type: disc;
 }
 
@@ -4330,7 +4330,7 @@ you can add resource intensive styles.
     width: 50%;
     float: left;
     padding: 20px 20px 30px;
-    min-height: 375px;
+    min-height: 398px;
     -webkit-transition: all 0.2s ease-in-out;
     -transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -4557,7 +4557,7 @@ you can add resource intensive styles.
   }
   /* line 330, ../scss/breakpoints/_768up.scss */
   .page-template-page-contact #contact-form {
-    padding: 40px 0;
+    padding: 126px 0;
   }
   /* line 332, ../scss/breakpoints/_768up.scss */
   .page-template-page-contact #contact-form .wrap {
