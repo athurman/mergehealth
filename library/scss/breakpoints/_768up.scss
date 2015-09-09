@@ -355,6 +355,9 @@ PAGE TEMPLATES
 .page-template-page-counseling {
   margin-top: 98px;
   font-family: 'Quicksand', sans-serif;
+  h1.counseling-header {
+    font-size: 50px;
+  }
   h2.counseling-sub-header {
     font-size: 30px;
   }
@@ -368,8 +371,8 @@ PAGE TEMPLATES
   #about-counseling {
     background: url(../images/meghan-bg-image.jpg) no-repeat;
     background-size: cover;
-    background-position: 100%;
-    padding: 100px 0;
+    background-position: 35% 25%;
+    padding: 300px 0;
   }
   #counseling-services {
     background: url(../images/counseling-services-bg.jpg) no-repeat;
@@ -390,7 +393,7 @@ PAGE TEMPLATES
   #contact-section {
     background: url(../images/contact-bg.jpg) no-repeat;
     background-size: cover;
-    padding: 100px 0;
+    padding: 160px 0;
     h2 {
       margin: 0;
       a {
@@ -466,6 +469,7 @@ NAVIGATION STYLES
   top: 51px;
   width: 100%;
   nav {
+    width: 80%;
     float: left;
   }
   ul.navigation {
