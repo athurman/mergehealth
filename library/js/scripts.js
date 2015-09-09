@@ -126,7 +126,7 @@ function clickScrollSection(e) {
   e.preventDefault();
   var offset = 97;
   if(jQuery(this).text() === 'About') {
-    windowScroll('#about-counseling', offset);
+    windowScroll('.about-meghan', offset);
   } else if(jQuery(this).text() === 'Counseling') {
     windowScroll(jQuery('#counseling-services'), offset);
   } else if(jQuery(this).text() === 'Health Coaching') {
