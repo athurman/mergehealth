@@ -42,7 +42,7 @@ $merge_moms_text = get_field('merge_moms_text');
   </div>
   <div id="monthly-challenges" class="section">
     <div class="wrap">
-      <h1 class="sub-main text-center">Merge Monthly Challenge</h1>
+      <h1 class="sub-main text-center">Counseling Services</h1>
       <a class="text-center" href="#" data-toggle="modal" data-target="#challengeInfoModal">Learn More</a>
       <div class="mobile-container">
         <?php
@@ -53,7 +53,7 @@ $merge_moms_text = get_field('merge_moms_text');
       </div>
     </div>
   </div>
-  <div id="merge-moms" class="section">
+  <div id="merge-moms" class="section hidden">
     <div class="wrap">
       <h1 class="sub-main text-center">Merge Moms</h1>
       <a class="text-center" href="#" data-toggle="modal" data-target="#mergemomInfoModal">Learn More</a>
@@ -95,7 +95,7 @@ $merge_moms_text = get_field('merge_moms_text');
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Merge Monthly Challenge</h4>
+        <h4 class="modal-title" id="myModalLabel">Counseling Services</h4>
       </div>
       <div class="modal-body">
         <?php
@@ -103,10 +103,10 @@ $merge_moms_text = get_field('merge_moms_text');
           echo $monthly_challenge_text;
         }
         ?>
-        <p><a href="mailto:info@mergeintohealth.com?Subject=Merge%20Monthly%20Challenge%20Inquiry">Email us for more information.</a></p>
+        <p><a href="mailto:info@mergeintohealth.com?Subject=Counseling%20Services%20Inquiry">Email us for more information.</a></p>
       </div>
       <div class="modal-footer">
-        <a href="<?php echo home_url(); ?>/contact/" class="blue-btn">Get Started Today</a>
+        <a href="<?php echo home_url(); ?>/counseling/" class="blue-btn">Get More Info</a>
       </div>
     </div>
   </div>
