@@ -343,8 +343,8 @@ PAGE TEMPLATES
 /* line 89, ../scss/breakpoints/_768up.scss */
 .page-template-page-aboutpage #aboutpage-hero {
   background: url(../images/about-us-bg.jpg) no-repeat;
-  background-size: 100%;
-  padding: 100px 0;
+  background-size: cover;
+  padding: 140px 0;
 }
 /* line 95, ../scss/breakpoints/_768up.scss */
 .page-template-page-aboutpage #meet-the-team .team-member {
