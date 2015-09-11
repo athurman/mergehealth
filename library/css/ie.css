@@ -311,7 +311,7 @@ PAGE TEMPLATES
 }
 /* line 61, ../scss/breakpoints/_768up.scss */
 .home #testimonials-container {
-  background-color: #f3f3f3;
+  background-color: #fff;
 }
 /* line 63, ../scss/breakpoints/_768up.scss */
 .home #testimonials-container .wrap {
@@ -1180,11 +1180,13 @@ PAGE TEMPLATES
 /* line 16, ../scss/breakpoints/_1030up.scss */
 .home #testimonials-container {
   background: url(../images/testimonial-bg.png) no-repeat;
-  background-color: #f3f3f3;
-  background-size: 100%;
+  background-size: cover;
+  background-position: 50%;
+  background-color: #fff;
+  padding: 0;
 }
 
-/* line 23, ../scss/breakpoints/_1030up.scss */
+/* line 25, ../scss/breakpoints/_1030up.scss */
 .page-template-page-whatweofferpage .service {
   width: 33.3333%;
   float: left;
@@ -1196,19 +1198,19 @@ PAGE TEMPLATES
   font-size: 0.95em;
   position: relative;
 }
-/* line 33, ../scss/breakpoints/_1030up.scss */
+/* line 35, ../scss/breakpoints/_1030up.scss */
 .page-template-page-whatweofferpage .service h1 {
   font-size: 1.65em;
 }
-/* line 36, ../scss/breakpoints/_1030up.scss */
+/* line 38, ../scss/breakpoints/_1030up.scss */
 .page-template-page-whatweofferpage .service p {
   font-size: 0.9em;
 }
-/* line 39, ../scss/breakpoints/_1030up.scss */
+/* line 41, ../scss/breakpoints/_1030up.scss */
 .page-template-page-whatweofferpage .service .gray-btn {
   display: none;
 }
-/* line 42, ../scss/breakpoints/_1030up.scss */
+/* line 44, ../scss/breakpoints/_1030up.scss */
 .page-template-page-whatweofferpage .service .service-link {
   display: block;
   width: 333px;
@@ -1221,7 +1223,7 @@ PAGE TEMPLATES
   left: 0;
   background: rgba(0, 0, 0, 0.65);
 }
-/* line 53, ../scss/breakpoints/_1030up.scss */
+/* line 55, ../scss/breakpoints/_1030up.scss */
 .page-template-page-whatweofferpage .service .service-link a {
   display: block;
   text-align: center;
@@ -1235,14 +1237,14 @@ PAGE TEMPLATES
   width: 35%;
   font-size: 1.2em;
 }
-/* line 65, ../scss/breakpoints/_1030up.scss */
+/* line 67, ../scss/breakpoints/_1030up.scss */
 .page-template-page-whatweofferpage .service .service-link a:hover {
   border-bottom: 1px solid #fff;
   -webkit-transition: all 0.2s ease-in-out;
   -transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 72, ../scss/breakpoints/_1030up.scss */
+/* line 74, ../scss/breakpoints/_1030up.scss */
 .page-template-page-whatweofferpage .service .service-link:hover {
   opacity: 1;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1250,19 +1252,19 @@ PAGE TEMPLATES
   transition: all 0.2s ease-in-out;
 }
 
-/* line 84, ../scss/breakpoints/_1030up.scss */
+/* line 86, ../scss/breakpoints/_1030up.scss */
 .page-template-page-fitness .sub-main {
   font-size: 2em;
 }
-/* line 87, ../scss/breakpoints/_1030up.scss */
+/* line 89, ../scss/breakpoints/_1030up.scss */
 .page-template-page-fitness #personal-training {
   padding: 120px 0;
 }
-/* line 90, ../scss/breakpoints/_1030up.scss */
+/* line 92, ../scss/breakpoints/_1030up.scss */
 .page-template-page-fitness #boot-camp {
   padding: 120px 0;
 }
-/* line 93, ../scss/breakpoints/_1030up.scss */
+/* line 95, ../scss/breakpoints/_1030up.scss */
 .page-template-page-fitness #swim {
   padding: 120px 0;
 }
@@ -1270,24 +1272,24 @@ PAGE TEMPLATES
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 102, ../scss/breakpoints/_1030up.scss */
+/* line 104, ../scss/breakpoints/_1030up.scss */
 .conseling-sub-navigation #inner-header {
   padding: 0;
 }
 
-/* line 107, ../scss/breakpoints/_1030up.scss */
+/* line 109, ../scss/breakpoints/_1030up.scss */
 footer.footer nav {
   width: 55%;
 }
-/* line 109, ../scss/breakpoints/_1030up.scss */
+/* line 111, ../scss/breakpoints/_1030up.scss */
 footer.footer nav ul.footer-links {
   float: left;
 }
-/* line 111, ../scss/breakpoints/_1030up.scss */
+/* line 113, ../scss/breakpoints/_1030up.scss */
 footer.footer nav ul.footer-links li {
   font-size: 1em;
 }
-/* line 114, ../scss/breakpoints/_1030up.scss */
+/* line 116, ../scss/breakpoints/_1030up.scss */
 footer.footer nav ul.footer-links li.link-top {
   border-bottom: 1px solid #2f90cc;
   display: inline-block;
