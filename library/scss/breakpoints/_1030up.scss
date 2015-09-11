@@ -15,8 +15,10 @@ PAGE TEMPLATES
 .home {
   #testimonials-container {
     background: url(../images/testimonial-bg.png) no-repeat;
-    background-color: #f3f3f3;
-    background-size: 100%;
+    background-size: cover;
+    background-position: 50%;
+    background-color: $white;
+    padding: 0;
   }
 }
 .page-template-page-whatweofferpage {

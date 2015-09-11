@@ -151,6 +151,14 @@ style a page via class
     & > h1 {
       margin: 0;
     }
+    .single-title {
+      margin-top: 14px;
+    }
+    .twitter-share-button.twitter-tweet-button {
+      position: relative !important;
+      top: 5px;
+      left: 8px;
+    }
   }
   article {
     img {
@@ -442,6 +450,7 @@ PAGE TEMPLATES
   }
   #testimonials-container {
     padding: 20px 0;
+    background-color: $white;
   }
   .icon-main {
     h2, h4 {
