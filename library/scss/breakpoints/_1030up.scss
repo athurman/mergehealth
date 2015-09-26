@@ -13,6 +13,9 @@ be seen on the Desktop.
 PAGE TEMPLATES
 *********************/
 .home {
+  #homepage-hero {
+    background-position: 0 -80px;
+  }
   #testimonials-container {
     background: url(../images/testimonial-bg.png) no-repeat;
     background-size: cover;

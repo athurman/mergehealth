@@ -89,6 +89,7 @@ PAGE TEMPLATES
   #aboutpage-hero {
     background: url(../images/about-us-bg.jpg) no-repeat;
     background-size: cover;
+    background-position: 0;
     padding: 140px 0;
   }
   #meet-the-team {
@@ -138,8 +139,9 @@ PAGE TEMPLATES
 .page-template-page-fitness {
   #fitnesspage-hero {
     background: url(../images/about-us-bg.jpg) no-repeat;
-    background-size: 100%;
-    padding: 100px 0;
+    background-size: cover;
+    background-position: 0;
+    padding: 140px 0;
   }
   .sub-main {
     font-size: 2em;
