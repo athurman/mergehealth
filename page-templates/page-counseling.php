@@ -18,6 +18,10 @@ $health_coaching_text = get_field('health_coaching_text');
 $retreats_header = get_field('retreats_header');
 $retreats_sub_header = get_field('retreats_sub_header');
 $retreats_text = get_field('retreats_text');
+
+$contact_street_address = get_field('contact_street_address');
+$contact_email_address = get_field('contact_email_address');
+$contact_phone_number = get_field('contact_phone_number');
 ?>
 <?php get_header( 'counseling' ); ?>
 <div id="content">
@@ -106,8 +110,15 @@ $retreats_text = get_field('retreats_text');
     <div class="wrap">
       <h1 class="counseling-header text-center">Contact</h1>
       <h2 class="counseling-sub-header text-center">Meghan Toups</h2>
-      <h2 class="text-center"><a href="mailto:meghan@mergeintohealth.com">meghan@mergeintohealth.com</a></h2>
-      <h2 class="counseling-sub-header text-center">770.298.2823</h2>
+      <?php if(!empty($contact_street_address)) { ?>
+      <h2 class="text-center"><?php echo $contact_street_address; ?></h2>
+      <?php } ?>
+      <?php if(!empty($contact_email_address)) { ?>
+      <h2 class="text-center"><a href="mailto:<?php echo $contact_email_address; ?>"><?php echo $contact_email_address; ?></a></h2>
+      <?php } ?>
+      <?php if(!empty($contact_phone_number)) { ?>
+      <h2 class="counseling-sub-header text-center"><?php echo $contact_phone_number; ?></h2>
+      <?php } ?>
       <ul class="text-center">
         <li><a href="https://www.facebook.com/MergeHFN"><i class="fa fa-facebook"></i></a></li>
         <li><a href="https://instagram.com/meghanktoups/"><i class="fa fa-instagram"></i></a></li>
