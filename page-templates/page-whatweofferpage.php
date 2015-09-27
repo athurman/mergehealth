@@ -70,9 +70,9 @@ $events = get_field('events');
         <h1 class="text-center">Events</h1>
         <img src="<?php echo get_template_directory_uri(); ?>/library/images/calendar-icon.png" alt="Calendar Icon">
         <?php echo $events; ?>
-        <a href="#" class="gray-btn">Learn More</a>
+        <a href="<?php echo home_url(); ?>/events" class="gray-btn">Learn More</a>
         <div class="service-link">
-          <a href="#">Learn More</a>
+          <a href="<?php echo home_url(); ?>/events">Learn More</a>
         </div>
       </div>
       <div class="clear"></div>

@@ -40,9 +40,9 @@
             </ul>
             <ul class='site-nav footer-links'>
               <li class='link-top'>Events</li>
-              <li><a href="#">Events</a></li>
+              <li><a href="<?php echo home_url(); ?>/events">Events</a></li>
               <li><a href="http://www.innerjourneyretreats.com/">Wellness Retreats</a></li>
-              <li><a href="#">Workshops & Talks</a></li>
+              <li><a href="<?php echo home_url(); ?>/events">Workshops & Talks</a></li>
             </ul>
             <div class="clear"></div>
           </nav>
