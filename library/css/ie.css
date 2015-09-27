@@ -375,11 +375,50 @@ PAGE TEMPLATES
   font-size: 1.4em;
 }
 
-/* line 120, ../scss/breakpoints/_768up.scss */
+/* line 122, ../scss/breakpoints/_768up.scss */
+.page-template-page-events .subheader {
+  font-size: 2em;
+}
+/* line 125, ../scss/breakpoints/_768up.scss */
+.page-template-page-events #eventspage-hero {
+  background: url(../images/events-hero-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: 0;
+  padding: 120px 0;
+}
+
+/* line 134, ../scss/breakpoints/_768up.scss */
+.single-event #eventspage-hero {
+  background: url(../images/events-hero-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: 0;
+  padding: 120px 0;
+}
+/* line 141, ../scss/breakpoints/_768up.scss */
+.single-event .thumbnail-event img {
+  max-width: 100%;
+  height: auto;
+}
+/* line 146, ../scss/breakpoints/_768up.scss */
+.single-event .event-heading {
+  margin-bottom: 20px;
+}
+/* line 150, ../scss/breakpoints/_768up.scss */
+.single-event .event-title h2 {
+  text-align: left;
+  font-size: 45px;
+  margin: 45px 0;
+}
+/* line 156, ../scss/breakpoints/_768up.scss */
+.single-event #sidebar1 {
+  display: block;
+}
+
+/* line 162, ../scss/breakpoints/_768up.scss */
 .page-template-page-whatweofferpage .services.wrap {
   padding: 0 15px;
 }
-/* line 123, ../scss/breakpoints/_768up.scss */
+/* line 165, ../scss/breakpoints/_768up.scss */
 .page-template-page-whatweofferpage .service {
   width: 50%;
   float: left;
@@ -389,24 +428,24 @@ PAGE TEMPLATES
   -transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 131, ../scss/breakpoints/_768up.scss */
+/* line 173, ../scss/breakpoints/_768up.scss */
 .page-template-page-whatweofferpage .service h1 {
   font-size: 1.75em;
   margin-top: 0;
 }
 
-/* line 140, ../scss/breakpoints/_768up.scss */
+/* line 182, ../scss/breakpoints/_768up.scss */
 .page-template-page-fitness #fitnesspage-hero {
   background: url(../images/about-us-bg.jpg) no-repeat;
   background-size: cover;
   background-position: 0;
   padding: 140px 0;
 }
-/* line 146, ../scss/breakpoints/_768up.scss */
+/* line 188, ../scss/breakpoints/_768up.scss */
 .page-template-page-fitness .sub-main {
   font-size: 2em;
 }
-/* line 149, ../scss/breakpoints/_768up.scss */
+/* line 191, ../scss/breakpoints/_768up.scss */
 .page-template-page-fitness #personal-training {
   padding: 80px 0;
   border-top: 1px solid #fff;
@@ -416,7 +455,7 @@ PAGE TEMPLATES
   color: #fff;
   text-align: center;
 }
-/* line 157, ../scss/breakpoints/_768up.scss */
+/* line 199, ../scss/breakpoints/_768up.scss */
 .page-template-page-fitness #personal-training a {
   display: inline-block;
   color: #fff;
@@ -428,11 +467,11 @@ PAGE TEMPLATES
   moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 167, ../scss/breakpoints/_768up.scss */
+/* line 209, ../scss/breakpoints/_768up.scss */
 .page-template-page-fitness #personal-training a:hover {
   border-bottom: 1px solid #fff;
 }
-/* line 172, ../scss/breakpoints/_768up.scss */
+/* line 214, ../scss/breakpoints/_768up.scss */
 .page-template-page-fitness #boot-camp {
   background: url(../images/bootcamp-bg.jpg) no-repeat;
   background-size: cover;
@@ -441,11 +480,11 @@ PAGE TEMPLATES
   border-top: 1px solid #fff;
   text-align: center;
 }
-/* line 179, ../scss/breakpoints/_768up.scss */
+/* line 221, ../scss/breakpoints/_768up.scss */
 .page-template-page-fitness #boot-camp .sub-main {
   color: #fff;
 }
-/* line 182, ../scss/breakpoints/_768up.scss */
+/* line 224, ../scss/breakpoints/_768up.scss */
 .page-template-page-fitness #boot-camp a {
   display: inline-block;
   color: #fff;
@@ -457,11 +496,11 @@ PAGE TEMPLATES
   moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 192, ../scss/breakpoints/_768up.scss */
+/* line 234, ../scss/breakpoints/_768up.scss */
 .page-template-page-fitness #boot-camp a:hover {
   border-bottom: 1px solid #fff;
 }
-/* line 197, ../scss/breakpoints/_768up.scss */
+/* line 239, ../scss/breakpoints/_768up.scss */
 .page-template-page-fitness #swim {
   background: url(../images/swimming-bg.jpg) no-repeat;
   background-size: cover;
@@ -472,7 +511,7 @@ PAGE TEMPLATES
   color: #fff;
   text-align: center;
 }
-/* line 206, ../scss/breakpoints/_768up.scss */
+/* line 248, ../scss/breakpoints/_768up.scss */
 .page-template-page-fitness #swim a {
   display: inline-block;
   color: #fff;
@@ -484,27 +523,27 @@ PAGE TEMPLATES
   moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 216, ../scss/breakpoints/_768up.scss */
+/* line 258, ../scss/breakpoints/_768up.scss */
 .page-template-page-fitness #swim a:hover {
   border-bottom: 1px solid #fff;
 }
 
-/* line 225, ../scss/breakpoints/_768up.scss */
+/* line 267, ../scss/breakpoints/_768up.scss */
 .page-template-page-healthandnutrition .subheader {
   font-size: 1.75em;
 }
-/* line 228, ../scss/breakpoints/_768up.scss */
+/* line 270, ../scss/breakpoints/_768up.scss */
 .page-template-page-healthandnutrition .sub-main {
   font-size: 2em;
 }
-/* line 231, ../scss/breakpoints/_768up.scss */
+/* line 273, ../scss/breakpoints/_768up.scss */
 .page-template-page-healthandnutrition #nutritionpage-hero {
   background: url(../images/health-and-nutrition-bg.jpg) no-repeat;
   background-size: 100%;
   background-position: 70%;
   padding: 100px 0;
 }
-/* line 237, ../scss/breakpoints/_768up.scss */
+/* line 279, ../scss/breakpoints/_768up.scss */
 .page-template-page-healthandnutrition #nutrition-coaching {
   padding: 80px 0;
   border-top: 1px solid #fff;
@@ -514,7 +553,7 @@ PAGE TEMPLATES
   color: #fff;
   text-align: center;
 }
-/* line 245, ../scss/breakpoints/_768up.scss */
+/* line 287, ../scss/breakpoints/_768up.scss */
 .page-template-page-healthandnutrition #nutrition-coaching a {
   display: inline-block;
   color: #fff;
@@ -526,11 +565,11 @@ PAGE TEMPLATES
   moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 255, ../scss/breakpoints/_768up.scss */
+/* line 297, ../scss/breakpoints/_768up.scss */
 .page-template-page-healthandnutrition #nutrition-coaching a:hover {
   border-bottom: 1px solid #fff;
 }
-/* line 260, ../scss/breakpoints/_768up.scss */
+/* line 302, ../scss/breakpoints/_768up.scss */
 .page-template-page-healthandnutrition #monthly-challenges {
   background: url(../images/counseling-services-bg.jpg) no-repeat;
   background-size: cover;
@@ -539,11 +578,11 @@ PAGE TEMPLATES
   border-top: 1px solid #fff;
   text-align: center;
 }
-/* line 267, ../scss/breakpoints/_768up.scss */
+/* line 309, ../scss/breakpoints/_768up.scss */
 .page-template-page-healthandnutrition #monthly-challenges .sub-main {
   color: #fff;
 }
-/* line 270, ../scss/breakpoints/_768up.scss */
+/* line 312, ../scss/breakpoints/_768up.scss */
 .page-template-page-healthandnutrition #monthly-challenges a {
   display: inline-block;
   color: #fff;
@@ -555,11 +594,11 @@ PAGE TEMPLATES
   moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 280, ../scss/breakpoints/_768up.scss */
+/* line 322, ../scss/breakpoints/_768up.scss */
 .page-template-page-healthandnutrition #monthly-challenges a:hover {
   border-bottom: 1px solid #fff;
 }
-/* line 285, ../scss/breakpoints/_768up.scss */
+/* line 327, ../scss/breakpoints/_768up.scss */
 .page-template-page-healthandnutrition #merge-moms {
   background: url(../images/merge-moms-bg.jpg) no-repeat;
   background-size: cover;
@@ -570,7 +609,7 @@ PAGE TEMPLATES
   color: #fff;
   text-align: center;
 }
-/* line 294, ../scss/breakpoints/_768up.scss */
+/* line 336, ../scss/breakpoints/_768up.scss */
 .page-template-page-healthandnutrition #merge-moms a {
   display: inline-block;
   color: #fff;
@@ -582,52 +621,52 @@ PAGE TEMPLATES
   moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 304, ../scss/breakpoints/_768up.scss */
+/* line 346, ../scss/breakpoints/_768up.scss */
 .page-template-page-healthandnutrition #merge-moms a:hover {
   border-bottom: 1px solid #fff;
 }
 
-/* line 312, ../scss/breakpoints/_768up.scss */
+/* line 354, ../scss/breakpoints/_768up.scss */
 .modal-header {
   background-color: #323944;
   color: #fff;
 }
-/* line 315, ../scss/breakpoints/_768up.scss */
+/* line 357, ../scss/breakpoints/_768up.scss */
 .modal-header .close {
   color: #fff;
 }
-/* line 317, ../scss/breakpoints/_768up.scss */
+/* line 359, ../scss/breakpoints/_768up.scss */
 .modal-header .close:focus, .modal-header .close:active {
   outline: none;
 }
 
-/* line 323, ../scss/breakpoints/_768up.scss */
+/* line 365, ../scss/breakpoints/_768up.scss */
 .modal-footer {
   background-color: #e5e5e4;
 }
 
-/* line 329, ../scss/breakpoints/_768up.scss */
+/* line 371, ../scss/breakpoints/_768up.scss */
 .page-template-page-contact .subheader {
   font-size: 1.75em;
 }
-/* line 332, ../scss/breakpoints/_768up.scss */
+/* line 374, ../scss/breakpoints/_768up.scss */
 .page-template-page-contact #contact-form {
   padding: 126px 0;
 }
-/* line 334, ../scss/breakpoints/_768up.scss */
+/* line 376, ../scss/breakpoints/_768up.scss */
 .page-template-page-contact #contact-form .wrap {
   max-width: 750px;
 }
 
-/* line 342, ../scss/breakpoints/_768up.scss */
+/* line 384, ../scss/breakpoints/_768up.scss */
 .page-template-page-corporatewellness .subheader {
   font-size: 1.75em;
 }
-/* line 345, ../scss/breakpoints/_768up.scss */
+/* line 387, ../scss/breakpoints/_768up.scss */
 .page-template-page-corporatewellness .textured {
   padding: 30px 0;
 }
-/* line 348, ../scss/breakpoints/_768up.scss */
+/* line 390, ../scss/breakpoints/_768up.scss */
 .page-template-page-corporatewellness #corporate-wellness-hero {
   background: url(../images/corporate-wellness-bg.jpg) no-repeat;
   background-size: 100%;
@@ -635,65 +674,65 @@ PAGE TEMPLATES
   padding: 100px 0;
 }
 
-/* line 357, ../scss/breakpoints/_768up.scss */
+/* line 399, ../scss/breakpoints/_768up.scss */
 .page-template-page-counseling {
   margin-top: 98px;
   font-family: 'Quicksand', sans-serif;
 }
-/* line 360, ../scss/breakpoints/_768up.scss */
+/* line 402, ../scss/breakpoints/_768up.scss */
 .page-template-page-counseling h1.counseling-header {
   font-size: 50px;
 }
-/* line 363, ../scss/breakpoints/_768up.scss */
+/* line 405, ../scss/breakpoints/_768up.scss */
 .page-template-page-counseling h2.counseling-sub-header {
   font-size: 30px;
 }
-/* line 366, ../scss/breakpoints/_768up.scss */
+/* line 408, ../scss/breakpoints/_768up.scss */
 .page-template-page-counseling h4.section-header {
   margin: 10px 0;
   font-size: 40px;
 }
-/* line 370, ../scss/breakpoints/_768up.scss */
+/* line 412, ../scss/breakpoints/_768up.scss */
 .page-template-page-counseling .section {
   font-size: 20px;
 }
-/* line 373, ../scss/breakpoints/_768up.scss */
+/* line 415, ../scss/breakpoints/_768up.scss */
 .page-template-page-counseling #about-counseling {
   background: url(../images/meghan-bg-image.jpg) no-repeat;
   background-size: cover;
   background-position: 35% 25%;
   padding: 300px 0;
 }
-/* line 379, ../scss/breakpoints/_768up.scss */
+/* line 421, ../scss/breakpoints/_768up.scss */
 .page-template-page-counseling #counseling-services {
   background: url(../images/counseling-services-bg.jpg) no-repeat;
   background-size: cover;
   padding: 100px 0;
 }
-/* line 384, ../scss/breakpoints/_768up.scss */
+/* line 426, ../scss/breakpoints/_768up.scss */
 .page-template-page-counseling #health-coaching-services {
   background: url(../images/health-coaching-bg.jpg) no-repeat;
   background-size: cover;
   padding: 100px 0;
 }
-/* line 389, ../scss/breakpoints/_768up.scss */
+/* line 431, ../scss/breakpoints/_768up.scss */
 .page-template-page-counseling #retreats {
   background: url(../images/retreats-bg.jpg) no-repeat;
   background-size: cover;
   background-position: 100%;
   padding: 100px 0;
 }
-/* line 395, ../scss/breakpoints/_768up.scss */
+/* line 437, ../scss/breakpoints/_768up.scss */
 .page-template-page-counseling #contact-section {
   background: url(../images/contact-bg.jpg) no-repeat;
   background-size: cover;
   padding: 160px 0;
 }
-/* line 399, ../scss/breakpoints/_768up.scss */
+/* line 441, ../scss/breakpoints/_768up.scss */
 .page-template-page-counseling #contact-section h2 {
   margin: 0;
 }
-/* line 401, ../scss/breakpoints/_768up.scss */
+/* line 443, ../scss/breakpoints/_768up.scss */
 .page-template-page-counseling #contact-section h2 a {
   color: #fff;
 }
@@ -704,29 +743,29 @@ LAYOUT & GRID STYLES
 /*********************
 HEADER STYLES
 *********************/
-/* line 417, ../scss/breakpoints/_768up.scss */
+/* line 459, ../scss/breakpoints/_768up.scss */
 #logo {
   float: left;
   width: 40%;
 }
 
-/* line 421, ../scss/breakpoints/_768up.scss */
+/* line 463, ../scss/breakpoints/_768up.scss */
 nav {
   width: 50%;
   float: right;
 }
-/* line 424, ../scss/breakpoints/_768up.scss */
+/* line 466, ../scss/breakpoints/_768up.scss */
 nav ul.nav {
   margin-top: 10px;
   padding: 0;
   text-align: right;
 }
-/* line 428, ../scss/breakpoints/_768up.scss */
+/* line 470, ../scss/breakpoints/_768up.scss */
 nav ul.nav li a {
   color: #404543;
   transition: all 0.2s ease-in-out;
 }
-/* line 431, ../scss/breakpoints/_768up.scss */
+/* line 473, ../scss/breakpoints/_768up.scss */
 nav ul.nav li a:hover {
   color: #1b1d1c;
 }
@@ -734,13 +773,13 @@ nav ul.nav li a:hover {
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 440, ../scss/breakpoints/_768up.scss */
+/* line 482, ../scss/breakpoints/_768up.scss */
 #cousneling-header {
   position: fixed;
   top: 0;
   width: 100%;
 }
-/* line 444, ../scss/breakpoints/_768up.scss */
+/* line 486, ../scss/breakpoints/_768up.scss */
 #cousneling-header nav {
   display: block;
   font-family: 'Quicksand', sans-serif;
@@ -748,7 +787,7 @@ NAVIGATION STYLES
   padding: 5px 0;
   text-align: right;
 }
-/* line 450, ../scss/breakpoints/_768up.scss */
+/* line 492, ../scss/breakpoints/_768up.scss */
 #cousneling-header nav a {
   display: inline-block;
   margin-top: 9px;
@@ -760,12 +799,12 @@ NAVIGATION STYLES
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 460, ../scss/breakpoints/_768up.scss */
+/* line 502, ../scss/breakpoints/_768up.scss */
 #cousneling-header nav a:hover {
   border-bottom: 1px solid #e5e5e4;
 }
 
-/* line 466, ../scss/breakpoints/_768up.scss */
+/* line 508, ../scss/breakpoints/_768up.scss */
 .conseling-sub-navigation {
   display: block;
   padding: 10px;
@@ -774,22 +813,22 @@ NAVIGATION STYLES
   top: 51px;
   width: 100%;
 }
-/* line 473, ../scss/breakpoints/_768up.scss */
+/* line 515, ../scss/breakpoints/_768up.scss */
 .conseling-sub-navigation nav {
   width: 80%;
   float: left;
 }
-/* line 477, ../scss/breakpoints/_768up.scss */
+/* line 519, ../scss/breakpoints/_768up.scss */
 .conseling-sub-navigation ul.navigation {
   font-family: 'Quicksand', sans-serif;
   margin: 0;
 }
-/* line 480, ../scss/breakpoints/_768up.scss */
+/* line 522, ../scss/breakpoints/_768up.scss */
 .conseling-sub-navigation ul.navigation li {
   display: inline-block;
   padding: 0 3px;
 }
-/* line 483, ../scss/breakpoints/_768up.scss */
+/* line 525, ../scss/breakpoints/_768up.scss */
 .conseling-sub-navigation ul.navigation li a {
   display: inline-block;
   color: #000000;
@@ -800,46 +839,46 @@ NAVIGATION STYLES
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 492, ../scss/breakpoints/_768up.scss */
+/* line 534, ../scss/breakpoints/_768up.scss */
 .conseling-sub-navigation ul.navigation li a:hover {
   border-bottom: 1px solid #fff;
 }
 
-/* line 499, ../scss/breakpoints/_768up.scss */
+/* line 541, ../scss/breakpoints/_768up.scss */
 footer.footer {
   padding: 20px 0;
 }
-/* line 501, ../scss/breakpoints/_768up.scss */
+/* line 543, ../scss/breakpoints/_768up.scss */
 footer.footer #inner-footer {
   position: relative;
 }
-/* line 504, ../scss/breakpoints/_768up.scss */
+/* line 546, ../scss/breakpoints/_768up.scss */
 footer.footer nav {
   width: 55%;
   float: left;
 }
-/* line 507, ../scss/breakpoints/_768up.scss */
+/* line 549, ../scss/breakpoints/_768up.scss */
 footer.footer nav ul.footer-links {
   float: left;
   width: 33.33%;
   padding-right: 20px;
 }
-/* line 511, ../scss/breakpoints/_768up.scss */
+/* line 553, ../scss/breakpoints/_768up.scss */
 footer.footer nav ul.footer-links li {
   padding: 3px 0;
   font-size: 0.8em;
 }
-/* line 514, ../scss/breakpoints/_768up.scss */
+/* line 556, ../scss/breakpoints/_768up.scss */
 footer.footer nav ul.footer-links li a {
   color: #f8f9fa;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
-/* line 518, ../scss/breakpoints/_768up.scss */
+/* line 560, ../scss/breakpoints/_768up.scss */
 footer.footer nav ul.footer-links li a:hover {
   color: #cbd3da;
 }
-/* line 523, ../scss/breakpoints/_768up.scss */
+/* line 565, ../scss/breakpoints/_768up.scss */
 footer.footer nav ul.footer-links li.link-top {
   border-bottom: 1px solid #2f90cc;
   display: inline-block;
@@ -848,23 +887,23 @@ footer.footer nav ul.footer-links li.link-top {
   margin-bottom: 6px;
   width: 83px;
 }
-/* line 533, ../scss/breakpoints/_768up.scss */
+/* line 575, ../scss/breakpoints/_768up.scss */
 footer.footer .footer-right {
   float: right;
   width: 40%;
   text-align: right;
 }
-/* line 537, ../scss/breakpoints/_768up.scss */
+/* line 579, ../scss/breakpoints/_768up.scss */
 footer.footer .footer-right .footer-social-links {
   display: inline-block;
   margin-top: 25px;
 }
-/* line 540, ../scss/breakpoints/_768up.scss */
+/* line 582, ../scss/breakpoints/_768up.scss */
 footer.footer .footer-right .footer-social-links li {
   padding: 0 3px;
   display: inline-block;
 }
-/* line 543, ../scss/breakpoints/_768up.scss */
+/* line 585, ../scss/breakpoints/_768up.scss */
 footer.footer .footer-right .footer-social-links li a {
   color: #fff;
   background-color: #2f90cc;
@@ -881,14 +920,14 @@ footer.footer .footer-right .footer-social-links li a {
   -transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 558, ../scss/breakpoints/_768up.scss */
+/* line 600, ../scss/breakpoints/_768up.scss */
 footer.footer .footer-right .footer-social-links li a:hover {
   background-color: #21648e;
   -webkit-transition: all 0.2s ease-in-out;
   -transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 567, ../scss/breakpoints/_768up.scss */
+/* line 609, ../scss/breakpoints/_768up.scss */
 footer.footer .footer-right .copyright {
   position: absolute;
   bottom: 0;
@@ -897,7 +936,7 @@ footer.footer .footer-right .copyright {
   color: #5A79A9;
 }
 
-/* line 576, ../scss/breakpoints/_768up.scss */
+/* line 618, ../scss/breakpoints/_768up.scss */
 .nav {
   display: block;
   border: 0;
@@ -905,18 +944,18 @@ footer.footer .footer-right .copyright {
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 579, ../scss/breakpoints/_768up.scss */
+/* line 621, ../scss/breakpoints/_768up.scss */
 .nav ul {
   background: #323944;
   margin-top: 0;
 }
-/* line 583, ../scss/breakpoints/_768up.scss */
+/* line 625, ../scss/breakpoints/_768up.scss */
 .nav li {
   float: right;
   position: relative;
   /* showing sub-menus */
 }
-/* line 588, ../scss/breakpoints/_768up.scss */
+/* line 630, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu,
 .nav li ul.children {
   margin-top: 0;
@@ -927,7 +966,7 @@ footer.footer .footer-right .copyright {
   z-index: 8999;
   /* highlight sub-menu current page */
 }
-/* line 597, ../scss/breakpoints/_768up.scss */
+/* line 639, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 10px;
@@ -936,18 +975,18 @@ footer.footer .footer-right .copyright {
   width: 180px;
   border-bottom: 1px solid #ccc;
 }
-/* line 609, ../scss/breakpoints/_768up.scss */
+/* line 651, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li:last-child a,
 .nav li ul.children li:last-child a {
   border-bottom: 0;
 }
-/* line 613, ../scss/breakpoints/_768up.scss */
+/* line 655, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li ul,
 .nav li ul.children li ul {
   top: 0;
   left: 100%;
 }
-/* line 626, ../scss/breakpoints/_768up.scss */
+/* line 668, ../scss/breakpoints/_768up.scss */
 .nav li:hover > ul {
   top: auto;
   visibility: visible;
@@ -957,7 +996,7 @@ footer.footer .footer-right .copyright {
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 642, ../scss/breakpoints/_768up.scss */
+/* line 684, ../scss/breakpoints/_768up.scss */
 .archive #main,
 .date #main,
 .search #main,
@@ -969,52 +1008,52 @@ SIDEBARS & ASIDES
   width: 73%;
 }
 
-/* line 652, ../scss/breakpoints/_768up.scss */
+/* line 694, ../scss/breakpoints/_768up.scss */
 .sidebar {
   width: 25%;
   float: right;
   margin-bottom: 20px;
 }
-/* line 656, ../scss/breakpoints/_768up.scss */
+/* line 698, ../scss/breakpoints/_768up.scss */
 .sidebar .widget_search {
   margin: 0 0 20px;
 }
-/* line 659, ../scss/breakpoints/_768up.scss */
+/* line 701, ../scss/breakpoints/_768up.scss */
 .sidebar .widget_categories {
   margin-bottom: 0;
 }
-/* line 661, ../scss/breakpoints/_768up.scss */
+/* line 703, ../scss/breakpoints/_768up.scss */
 .sidebar .widget_categories ul {
   margin-top: 0;
   list-style-type: none;
   padding: 0;
 }
-/* line 665, ../scss/breakpoints/_768up.scss */
+/* line 707, ../scss/breakpoints/_768up.scss */
 .sidebar .widget_categories ul li {
   margin-bottom: 0;
 }
-/* line 667, ../scss/breakpoints/_768up.scss */
+/* line 709, ../scss/breakpoints/_768up.scss */
 .sidebar .widget_categories ul li a {
   text-decoration: none;
 }
-/* line 673, ../scss/breakpoints/_768up.scss */
+/* line 715, ../scss/breakpoints/_768up.scss */
 .sidebar .widget_text {
   border: none;
   padding: 0;
   text-align: center;
 }
-/* line 677, ../scss/breakpoints/_768up.scss */
+/* line 719, ../scss/breakpoints/_768up.scss */
 .sidebar .widget_text .footer-social-links {
   display: inline-block;
   margin: 0 auto;
 }
-/* line 680, ../scss/breakpoints/_768up.scss */
+/* line 722, ../scss/breakpoints/_768up.scss */
 .sidebar .widget_text .footer-social-links li {
   padding: 0 3px;
   margin-bottom: 0;
   display: inline-block;
 }
-/* line 684, ../scss/breakpoints/_768up.scss */
+/* line 726, ../scss/breakpoints/_768up.scss */
 .sidebar .widget_text .footer-social-links li a {
   color: #fff;
   background-color: #2f90cc;
@@ -1031,54 +1070,54 @@ SIDEBARS & ASIDES
   -transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 699, ../scss/breakpoints/_768up.scss */
+/* line 741, ../scss/breakpoints/_768up.scss */
 .sidebar .widget_text .footer-social-links li a:hover {
   background-color: #21648e;
   -webkit-transition: all 0.2s ease-in-out;
   -transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 705, ../scss/breakpoints/_768up.scss */
+/* line 747, ../scss/breakpoints/_768up.scss */
 .sidebar .widget_text .footer-social-links li a .fa-twitter {
   position: relative;
   bottom: 2px;
   left: 1px;
 }
-/* line 710, ../scss/breakpoints/_768up.scss */
+/* line 752, ../scss/breakpoints/_768up.scss */
 .sidebar .widget_text .footer-social-links li a .fa-instagram {
   position: relative;
   bottom: 2px;
 }
-/* line 714, ../scss/breakpoints/_768up.scss */
+/* line 756, ../scss/breakpoints/_768up.scss */
 .sidebar .widget_text .footer-social-links li a .fa-facebook {
   bottom: 2px;
   position: relative;
 }
-/* line 718, ../scss/breakpoints/_768up.scss */
+/* line 760, ../scss/breakpoints/_768up.scss */
 .sidebar .widget_text .footer-social-links li a .fa-youtube {
   position: relative;
   bottom: 3px;
 }
-/* line 726, ../scss/breakpoints/_768up.scss */
+/* line 768, ../scss/breakpoints/_768up.scss */
 .sidebar .jr-insta-slider {
   border-bottom: 1px solid #323944;
   border-top: 1px solid #323944;
 }
-/* line 731, ../scss/breakpoints/_768up.scss */
+/* line 773, ../scss/breakpoints/_768up.scss */
 .sidebar .searchform label {
   display: none;
 }
-/* line 735, ../scss/breakpoints/_768up.scss */
+/* line 777, ../scss/breakpoints/_768up.scss */
 .sidebar input[type="text"],
 .sidebar input[type="search"] {
   background-color: #F9F9F9;
   border: 1px solid #eaedf2;
 }
-/* line 740, ../scss/breakpoints/_768up.scss */
+/* line 782, ../scss/breakpoints/_768up.scss */
 .sidebar input[type="text"].is-error {
   border: 1px solid #990E05;
 }
-/* line 743, ../scss/breakpoints/_768up.scss */
+/* line 785, ../scss/breakpoints/_768up.scss */
 .sidebar input[type="submit"],
 .sidebar button {
   border: none;
@@ -1095,44 +1134,44 @@ SIDEBARS & ASIDES
   -transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 758, ../scss/breakpoints/_768up.scss */
+/* line 800, ../scss/breakpoints/_768up.scss */
 .sidebar input[type="submit"]:hover, .sidebar input[type="submit"]:focus,
 .sidebar button:hover,
 .sidebar button:focus {
   background-color: #2779ab;
 }
-/* line 762, ../scss/breakpoints/_768up.scss */
+/* line 804, ../scss/breakpoints/_768up.scss */
 .sidebar input[type="submit"]:active,
 .sidebar button:active {
   background-color: #2676a7;
 }
-/* line 767, ../scss/breakpoints/_768up.scss */
+/* line 809, ../scss/breakpoints/_768up.scss */
 .sidebar .ctct-embed-signup h2 {
   font-size: 16px;
 }
-/* line 770, ../scss/breakpoints/_768up.scss */
+/* line 812, ../scss/breakpoints/_768up.scss */
 .sidebar .ctct-embed-signup p {
   font-size: 14px;
 }
-/* line 773, ../scss/breakpoints/_768up.scss */
+/* line 815, ../scss/breakpoints/_768up.scss */
 .sidebar .ctct-embed-signup p.ctct-form-footer {
   font-size: 10px;
   line-height: 1.2;
 }
-/* line 777, ../scss/breakpoints/_768up.scss */
+/* line 819, ../scss/breakpoints/_768up.scss */
 .sidebar .ctct-embed-signup .ctct-form-errorMessage {
   color: #990E05;
 }
-/* line 780, ../scss/breakpoints/_768up.scss */
+/* line 822, ../scss/breakpoints/_768up.scss */
 .sidebar .ctct-embed-signup a {
   color: #fff;
 }
-/* line 783, ../scss/breakpoints/_768up.scss */
+/* line 825, ../scss/breakpoints/_768up.scss */
 .sidebar .ctct-embed-signup button {
   background-color: #ED7F07;
 }
 
-/* line 789, ../scss/breakpoints/_768up.scss */
+/* line 831, ../scss/breakpoints/_768up.scss */
 .widgettitle {
   margin: 0 0 0.75em;
   text-align: center;
@@ -1140,16 +1179,16 @@ SIDEBARS & ASIDES
   text-transform: uppercase;
 }
 
-/* line 796, ../scss/breakpoints/_768up.scss */
+/* line 838, ../scss/breakpoints/_768up.scss */
 .widget {
   padding: 0.75em 10px;
   margin: 1em 0;
 }
-/* line 800, ../scss/breakpoints/_768up.scss */
+/* line 842, ../scss/breakpoints/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
 }
-/* line 802, ../scss/breakpoints/_768up.scss */
+/* line 844, ../scss/breakpoints/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;

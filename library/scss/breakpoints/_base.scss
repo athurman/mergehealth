@@ -564,6 +564,69 @@ PAGE TEMPLATES
     }
   }
 }
+
+// Events Page
+.page-template-page-events {
+  .subheader {
+    color: $text-color;
+    font-size: 1.2em;
+  }
+  .no-events {
+    color: #7B7B7B;
+    font-style: italic;
+  }
+  p {
+    font-size: 18px;
+    margin: 10px 0;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+  #eventspage-hero {
+    background: url(../images/events-hero-bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+  }
+}
+
+.single-event {
+  #eventspage-hero {
+    background: url(../images/events-hero-bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+  }
+  #main {
+    border: none;
+  }
+  #sidebar1 {
+    display: none;
+  }
+  .thumbnail-event {
+    img {
+      max-width: 80%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .event-title {
+    h2 {
+      font-weight: bold;
+      text-align: center;
+      font-size: 40px;
+      margin: 5px 0 15px;
+    }
+  }
+  .event-heading {
+    margin-bottom: 10px;
+  }
+  td.heading {
+    min-width: 65px;
+    font-weight: bold;
+    padding: 5px 0;
+  }
+}
+
 #servicespage-hero {
   background: url(../images/what-we-offer-banner.jpg) no-repeat;
   background-size: cover;

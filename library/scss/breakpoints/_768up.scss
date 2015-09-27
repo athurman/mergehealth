@@ -116,6 +116,48 @@ PAGE TEMPLATES
     }
   }
 }
+
+// Events Page
+.page-template-page-events {
+   .subheader {
+    font-size: 2em;
+  }
+  #eventspage-hero {
+    background: url(../images/events-hero-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0;
+    padding: 120px 0;
+  }
+}
+
+.single-event {
+  #eventspage-hero {
+    background: url(../images/events-hero-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0;
+    padding: 120px 0;
+  }
+  .thumbnail-event {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .event-heading {
+    margin-bottom: 20px;
+  }
+  .event-title {
+    h2 {
+      text-align: left;
+      font-size: 45px;
+      margin: 45px 0;
+    }
+  }
+  #sidebar1 {
+    display: block;
+  }
+}
+
 .page-template-page-whatweofferpage {
   .services.wrap {
     padding: 0 15px;
