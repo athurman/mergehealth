@@ -24,9 +24,7 @@ $terms = get_terms( 'event_type', 'orderby=name&hide_empty=0' );
   <div id="events-breakdown" class="section">
     <div class="wrap">
       <?php
-
       foreach ( $terms as $term ) {
-        echo '<h2 class="subheader">'.$term->name.'</h2>';
         $args=array(
           'event_type' => $term->slug,
           'post_type' => 'event',
@@ -36,6 +34,7 @@ $terms = get_terms( 'event_type', 'orderby=name&hide_empty=0' );
         $events_query = new WP_Query($args);
         $i = 0;
         if( $events_query->have_posts() ) {
+          echo '<h2 class="subheader">'.$term->name.'</h2>';
           while ($events_query->have_posts()) : $events_query->the_post();
           $event_date = get_field('event_date');
           $event_time = strtotime($event_date);
@@ -46,13 +45,6 @@ $terms = get_terms( 'event_type', 'orderby=name&hide_empty=0' );
             $i++;
           }
           endwhile;
-          if($i === 0) { ?>
-            <p class="no-events">No events scheduled at this time.</p>
-      <?php
-          }
-        } else { ?>
-        <p class="no-events">No events scheduled at this time.</p>
-      <?php
         }
         wp_reset_query();
       }
